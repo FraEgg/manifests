@@ -12,7 +12,7 @@
   <remove-project name="LineageOS/android_hardware_qcom_media" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
-  <!-- <remove-project name="LineageOS/android_packages_apps_Snap" /> -->
+  <remove-project name="LineageOS/android_packages_apps_Snap" />
   <!-- <remove-project path="packages/apps/Dialer" name="android_packages_apps_Dialer" /> -->
 
  <!--Repositories to fetch-->
@@ -35,7 +35,7 @@
   <project path="hardware/qcom/media-caf/msm8996" name="sultanxda/android_hardware_qcom_media" revision="cm-14.1-caf-8996" />
   <!-- <project path="kernel/oneplus/msm8996" name="sultanxda/android_kernel_oneplus_msm8996" revision="cm-14.1-sultan" /> -->
   <!-- <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="cm-14.1-sultan" /> -->
-  <!-- <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" /> -->
+  <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
   <!-- <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-14.1-sultan" /> -->
   <project path="packages/apps/WeatherProviders" name="sultanxda/android_packages_apps_WeatherProviders" revision="cm-14.1" />
   <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
