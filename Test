@@ -1,0 +1,10 @@
+# Clean patches
+rm -f -r ~/lineageos/rr/kernel/
+rm -f -r ~/lineageos/rr/packages/
+rm -f -r ~/lineageos/rr/device/oppo/
+rm -f -r ~/lineageos/rr/build/
+rm -f -r ~/lineageos/rr/frameworks/av/
+rm -f -r ~/lineageos/rr/frameworks/base/
+rm -f -r ~/lineageos/rr/frameworks/native/
+rm -f -r ~/lineageos/rr/system/core/
+rm -f -r ~/lineageos/rr/vendor/cm/
