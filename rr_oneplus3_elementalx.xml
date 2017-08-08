@@ -11,13 +11,12 @@
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   -->
-    <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
+  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+  <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
   <remove-project name="LineageOS/android_packages_apps_Snap" />
   
-
- <!--Repositories to fetch-->
+  <!--Repositories to fetch-->
   <!--Upstream-->
   <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
