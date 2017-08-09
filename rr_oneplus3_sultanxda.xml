@@ -2,14 +2,14 @@
 <manifest>
 
  <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
-  <project path="patcher" name="FraEgg/patcher" revision="cm-14.1-oneplus3" />
+ <!-- <project path="patcher" name="FraEgg/patcher" revision="cm-14.1-oneplus3" /> -->
 
  <!--Repositories to replace-->
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
-  <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
+  <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
 
