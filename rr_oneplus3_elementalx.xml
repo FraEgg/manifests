@@ -31,7 +31,6 @@
   <!--Custom-->
   <project name="FraEgg/android_device_oneplus_oneplus3_sultanxda" path="device/oneplus/oneplus3" remote="github" revision="cm-14.1-elementalx" />
   <project name="flar2/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="ElementalX-3.00-los" />
-  <!-- <project path="kernel/oneplus/msm8996" name="sultanxda/android_kernel_oneplus_msm8996" revision="cm-14.1-sultan" /> -->
       
   <project path="hardware/qcom/audio-caf/msm8996" name="sultanxda/android_hardware_qcom_audio" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8996" name="sultanxda/android_hardware_qcom_display" revision="cm-14.1-caf-8996" />
