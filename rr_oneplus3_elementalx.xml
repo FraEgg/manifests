@@ -38,7 +38,8 @@
   <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
   <!-- <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" revision="cm-14.1-sultan" /> -->
   <!-- <project path="packages/apps/WeatherProviders" name="sultanxda/android_packages_apps_WeatherProviders" revision="cm-14.1" /> -->
-  <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/OOSCameras" name="FraEgg/android_packages_apps_oos_camera" revision="master" />
+  <project name="FraEgg/proprietary_vendor_oneplus_muppets" path="vendor/oneplus" remote="github" revision="cm-14.1" />
 
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
