@@ -28,13 +28,9 @@
   <project path="hardware/qcom/audio-caf/msm8996" name="sultanxda/android_hardware_qcom_audio" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8996" name="sultanxda/android_hardware_qcom_display" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8996" name="sultanxda/android_hardware_qcom_media" revision="cm-14.1-caf-8996" />
-  <!--
-  <project path="device/oneplus/oneplus3" name="FraEgg/android_device_oneplus_oneplus3_sultanxda" revision="cm-14.1-sultan" />
-  <project path="kernel/oneplus/msm8996" name="FraEgg/android_kernel_oneplus_msm8996_sultanxda" revision="cm-14.1-sultan" />
-  -->
-  <project name="FraEgg/android_device_oneplus_oneplus3_sultanxda" path="device/oneplus/oneplus3" remote="github" revision="cm-14.1-elementalx" />
-  <project name="flar2/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="ElementalX-3.00-los" />
- 
+  <project path="device/oneplus/oneplus3" name="FraEgg/android_device_oneplus_oneplus3_sultanxda" revision="cm-14.1-elementalx" />
+  <project path="kernel/oneplus/msm8996" name="flar2/android_kernel_oneplus_msm8996" revision="ElementalX-3.00-los" />
+  
   <!-- 
   <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="cm-14.1-sultan" />
   <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
