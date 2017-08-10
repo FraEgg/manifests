@@ -8,9 +8,9 @@
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <remove-project name="LineageOS/android_packages_apps_Snap" />
   <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
-  <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
-  <!-- <remove-project name="LineageOS/android_packages_apps_Snap" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
 
  <!--Repositories to fetch-->
@@ -36,6 +36,9 @@
   <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
   <project path="packages/apps/WeatherProviders" name="sultanxda/android_packages_apps_WeatherProviders" revision="cm-14.1" />
   -->
+ 
+  <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
+ 
   <project path="packages/apps/OOSCameras" name="FraEgg/android_packages_apps_oos_camera" revision="master" />
   <project path="vendor/oneplus" name="FraEgg/proprietary_vendor_oneplus_sultanxda" revision="cm-14.1-sultan" />
 
