@@ -37,6 +37,7 @@
   
   <project name="FraEgg/android_device_oneplus_oneplus3_los" path="device/oneplus/oneplus3" remote="github" revision="cm-14.1-elemental" />
   <project name="flar2/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="ElementalX-3.00-los" />
+  <project name="FraEgg/proprietary_vendor_oneplus_muppets" path="vendor/oneplus" remote="github" revision="cm-14.1" />
 
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
