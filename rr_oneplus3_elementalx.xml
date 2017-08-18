@@ -8,7 +8,7 @@
 
  <!--Repositories to replace-->
   <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
-  <!-- <remove-project name="LineageOS/android_packages_apps_Snap" /> -->
+  <remove-project name="LineageOS/android_packages_apps_Snap" />
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
@@ -36,12 +36,13 @@
   <!-- <project name="sultanxda/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1-sultan" /> -->
   
   <project name="FraEgg/android_device_oneplus_oneplus3_sultanxda" path="device/oneplus/oneplus3" remote="github" revision="cm-14.1-elemental" />
-  <project name="flar2/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="ElementalX-3.00-los" />
-  <project name="FraEgg/proprietary_vendor_oneplus_sultanxda" path="vendor/oneplus" remote="github" revision="cm-14.1-sultan" />
-  
-  <!-- <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" /> -->
+  <project name="FraEgg/android_kernel_oneplus_msm8996_flar2" path="kernel/oneplus/msm8996" remote="github" revision="ElementalX-3.00-los" />
+    
+  <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-elemental" />
   <project path="packages/apps/OOSCameras" name="FraEgg/android_packages_apps_oos_camera" revision="master" />
 
+  <project name="FraEgg/proprietary_vendor_oneplus_sultanxda" path="vendor/oneplus" remote="github" revision="cm-14.1-sultan" />
+  
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
