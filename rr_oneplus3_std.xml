@@ -31,7 +31,6 @@
   <!-- <project path="hardware/qcom/audio-caf/msm8996" name="sultanxda/android_hardware_qcom_audio" revision="cm-14.1-caf-8996" /> -->
   <!-- <project path="hardware/qcom/display-caf/msm8996" name="sultanxda/android_hardware_qcom_display" revision="cm-14.1-caf-8996" /> -->
   <!-- <project path="hardware/qcom/media-caf/msm8996" name="sultanxda/android_hardware_qcom_media" revision="cm-14.1-caf-8996" /> -->
-  
   <project name="nvertigo/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-14.1" />
   
   <project name="FraEgg/android_device_oneplus_oneplus3_los" path="device/oneplus/oneplus3" remote="github" revision="cm-14.1-elemental" />
