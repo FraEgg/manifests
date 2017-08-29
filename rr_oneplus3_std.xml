@@ -15,7 +15,7 @@
   <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
   <!-- <remove-project name="LineageOS/android_packages_apps_Updater" /> -->
   <!-- <remove-project name="frameworks_av" /> -->
-  <!--- <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" /> -->
+  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   
   <!--Repositories to fetch-->
   <!--Upstream-->
@@ -42,7 +42,7 @@
   <!-- <project name="FraEgg/proprietary_vendor_oneplus_muppets" path="vendor/oneplus" remote="github" revision="cm-14.1" /> -->
   <!-- <project path="vendor/oneplus" name="FraEgg/proprietary_vendor_oneplus_sultanxda" revision="cm-14.1-sultan" /> -->
   <project name="FraEgg/proprietary_vendor_oneplus_nvertigo" path="vendor/oneplus" remote="github" revision="141-work" />
-  <!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" /> -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" />
 
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
