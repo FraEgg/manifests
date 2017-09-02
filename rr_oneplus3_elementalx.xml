@@ -41,7 +41,7 @@
     
   <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
   <project path="packages/apps/OOSCameras" name="FraEgg/android_packages_apps_oos_camera" revision="master" />
-
+  <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
   <project name="FraEgg/proprietary_vendor_oneplus_sultanxda" path="vendor/oneplus" remote="github" revision="cm-14.1-sultan" />
   
  <!--Repositories to remove-->
