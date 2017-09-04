@@ -44,7 +44,7 @@
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
   <project name="FraEgg/proprietary_vendor_oneplus_muppets" path="vendor/oneplus" remote="github" revision="cm-14.1" />
   
- <!--Repositories to remove-->
+  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
@@ -56,5 +56,4 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/ninja/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
-  
 </manifest>
