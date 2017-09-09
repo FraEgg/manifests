@@ -30,7 +30,7 @@
   <project path="hardware/qcom/display-caf/msm8996" name="sultanxda/android_hardware_qcom_display" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8996" name="sultanxda/android_hardware_qcom_media" revision="cm-14.1-caf-8996" />
   <project path="device/oneplus/oneplus3" name="FraEgg/android_device_oneplus_oneplus3_sultanxda" revision="cm-14.1-sultan" />
-  <project path="kernel/oneplus/msm8996" name="FraEgg/android_kernel_oneplus_msm8996_flar2" revision="cm-14.1-sultan" />
+  <project path="kernel/oneplus/msm8996" name="FraEgg/android_kernel_oneplus_msm8996_sultanxda" revision="cm-14.1-luis" />
   
   <!-- 
   <project path="packages/apps/CMUpdater" name="sultanxda/android_packages_apps_CMUpdater" revision="cm-14.1-sultan" />
