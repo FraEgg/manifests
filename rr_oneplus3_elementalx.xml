@@ -37,7 +37,7 @@
   <!-- <project name="sultanxda/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1-sultan" /> -->
   
   <project name="FraEgg/android_device_oneplus_oneplus3_los" path="device/oneplus/oneplus3" remote="github" revision="cm-14.1-elemental" />
-  <project name="FraEgg/android_kernel_oneplus_msm8996_flar2" path="kernel/oneplus/msm8996" remote="github" revision="ElementalX-3.00-los" />
+  <project name="FraEgg/android_kernel_oneplus_msm8996_flar2" path="kernel/oneplus/msm8996" remote="github" revision="cm-14.1-luis" />
     
   <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
   <project path="packages/apps/OOSCameras" name="FraEgg/android_packages_apps_oos_camera" revision="master" />
