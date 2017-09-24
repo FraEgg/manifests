@@ -9,6 +9,7 @@
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
+  <remove-project name="ResurrectionRemix/android_packages_apps_Dialer" />
   <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
   <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
   <!-- <remove-project name="LineageOS/android_packages_apps_Updater" /> -->
@@ -38,11 +39,15 @@
   <project path="packages/apps/WeatherProviders" name="sultanxda/android_packages_apps_WeatherProviders" revision="cm-14.1" />
   -->
  
+  <!-- Sultan Snap-Cam -->
   <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
+
+  <!-- VertexOS Dailer -->
+  <project name="VertexOS/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="vertex" />
  
   <project path="packages/apps/OOSCameras" name="FraEgg/android_packages_apps_oos_camera" revision="master" />
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
-  <project path="vendor/oneplus" name="FraEgg/proprietary_vendor_oneplus_sultanxda" revision="cm-14.1-sultan" />
+  <project path="vendor/oneplus" name="FraEgg/proprietary_vendor_oneplus_sultanxda" revision="cm-14.1-luis" />
 
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
