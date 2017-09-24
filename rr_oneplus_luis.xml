@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
  <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
  <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-oneplus3" />
@@ -8,7 +9,6 @@
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
-  <remove-project path="packages/apps/Dialer" />
   <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
   <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
   <!-- <remove-project name="LineageOS/android_packages_apps_Updater" /> -->
@@ -42,6 +42,7 @@
   <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
 
   <!-- VertexOS Dailer -->
+  <remove-project name="android_packages_apps_Dialer" />
   <project name="VertexOS/android_packages_apps_Dialer" path="packages/apps/Dialer" revision="n" />
  
   <project path="packages/apps/OOSCameras" name="FraEgg/android_packages_apps_oos_camera" revision="master" />
