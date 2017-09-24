@@ -9,7 +9,7 @@
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
-  <remove-project name="ResurrectionRemix/android_packages_apps_Dialer" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
   <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
   <!-- <remove-project name="LineageOS/android_packages_apps_Updater" /> -->
