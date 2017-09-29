@@ -12,6 +12,9 @@
            revision="cm-14.1" />
   
   <project name="FraEgg/android_device_samsung_klimtwifi" path="device/samsung/klimtwifi" remote="github" revision="cm-14.1" />
+  
+  <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
+  <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-oneplus3-luis" />
 
   <!-- LineageOS -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
