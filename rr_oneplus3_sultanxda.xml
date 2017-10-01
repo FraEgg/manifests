@@ -42,7 +42,7 @@
  
   <project path="packages/apps/OOSCameras" name="FraEgg/android_packages_apps_oos_camera" revision="master" />
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
-  <project path="vendor/oneplus" name="FraEgg/proprietary_vendor_oneplus_sultanxda" revision="cm-14.1-luis" />
+  <project path="vendor/oneplus" name="FraEgg/proprietary_vendor_oneplus_sultanxda" revision="cm-14.1" />
 
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
