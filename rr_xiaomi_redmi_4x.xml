@@ -9,9 +9,9 @@
  <!--Repositories to replace-->
   <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
   <!-- <remove-project name="LineageOS/android_packages_apps_Snap" /> -->
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_display" /> -->
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_media" /> -->
   <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
   <!-- <remove-project name="LineageOS/android_packages_apps_Updater" /> -->
   <!-- <remove-project name="frameworks_av" /> -->
@@ -22,9 +22,9 @@
   <!-- <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" /> -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
   
-  <project path="hardware/qcom/audio-caf/msm8937" name="omnirom/android_hardware_qcom_audio-caf-msm8937" revision="android-7.1" />
-  <project path="hardware/qcom/display-caf/msm8937" name="omnirom/android_hardware_qcom_display-caf-msm8937" revision="android-7.1" />
-  <project path="hardware/qcom/media-caf/msm8937" name="omnirom/android_hardware_qcom_media-caf-msm8937" revision="android-7.1" />
+  <!-- <project path="hardware/qcom/audio-caf/msm8937" name="omnirom/android_hardware_qcom_audio-caf-msm8937" revision="android-7.1" /> -->
+  <!-- <project path="hardware/qcom/display-caf/msm8937" name="omnirom/android_hardware_qcom_display-caf-msm8937" revision="android-7.1" /> -->
+  <!-- <project path="hardware/qcom/media-caf/msm8937" name="omnirom/android_hardware_qcom_media-caf-msm8937" revision="android-7.1" /> -->
   
   <!-- <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-13.0" /> -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
@@ -37,7 +37,7 @@
   <project name="saikatrockz/android_device_xiaomi_santoni" path="device/xiaomi/santoni" remote="github" revision="rr-n" />
   <project name="saikatrockz/android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="7.1" />
   <!-- <project name="HridayHS/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1-santoni" /> -->
-  <project name="Wzedlare/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="cm-14.1" />
+  <project name="saikatrockz/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="cm-14.1" />
   
 <!-- <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" /> -->
 <!-- <project path="packages/apps/OOSCameras" name="FraEgg/android_packages_apps_oos_camera" revision="master" /> -->
