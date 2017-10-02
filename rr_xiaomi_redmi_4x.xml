@@ -8,7 +8,7 @@
 
  <!--Repositories to replace-->
   <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
-  <!-- <remove-project name="LineageOS/android_packages_apps_Snap" /> -->
+  <remove-project name="LineageOS/android_packages_apps_Snap" />
   <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
   <!-- <remove-project name="LineageOS/android_hardware_qcom_display" /> -->
   <!-- <remove-project name="LineageOS/android_hardware_qcom_media" /> -->
@@ -19,7 +19,7 @@
   
   <!--Repositories to fetch-->
   <!--Upstream-->
-  <!-- <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" /> -->
+  <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
   
   <!-- <project path="hardware/qcom/audio-caf/msm8937" name="omnirom/android_hardware_qcom_audio-caf-msm8937" revision="android-7.1" /> -->
