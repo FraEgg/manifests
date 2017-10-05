@@ -60,7 +60,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="nvertigo/arm-linux-androideabi-4.9" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="nvertigo/arm-eabi-4.9" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9x" name="nvertigo/aarch64-linux-android-4.9-kernel" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="nvertigo/aarch64-linux-android-5.0" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="nvertigo/aarch64-linux-android-5.x" remote="github" revision="master" />
  
 
  <!--Repositories to remove-->
