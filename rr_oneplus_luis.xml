@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ 
+<remote  name="bitbucket"
+           fetch="https://bitbucket.org/" />
 
  <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
  <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-oneplus3-luis" />
