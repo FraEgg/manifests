@@ -49,7 +49,7 @@
  
  <!-- get qcom native Snapdragon llvm toolchain -->
  
-  <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" name="nvertigo/llvm-Snapdragon_LLVM_for_Android" remote="github" revision="3.8.8" />
+ <!-- <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" name="nvertigo/llvm-Snapdragon_LLVM_for_Android" remote="github" revision="3.8.8" /> -->
  
 <!-- replace laos shipped prebuilt toolchains with UBERTC/linaro ones -->
  
@@ -59,8 +59,8 @@
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="nvertigo/arm-linux-androideabi-4.9" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="nvertigo/arm-eabi-4.9" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="nvertigo/aarch64-linux-android-4.9-kernel" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.0" name="nvertigo/aarch64-linux-android-5.x" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9x" name="nvertigo/aarch64-linux-android-4.9-kernel" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="nvertigo/aarch64-linux-android-5.0" remote="bitbucket" revision="master" />
  
 
  <!--Repositories to remove-->
