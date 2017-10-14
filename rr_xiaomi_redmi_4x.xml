@@ -9,6 +9,7 @@
  <!--Repositories to replace-->
   <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
   <remove-project name="LineageOS/android_packages_apps_Snap" />
+  <remove-project name="android_packages_apps_LockClock" />
   <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
   <!-- <remove-project name="LineageOS/android_hardware_qcom_display" /> -->
   <!-- <remove-project name="LineageOS/android_hardware_qcom_media" /> -->
@@ -21,6 +22,7 @@
   <!--Upstream-->
   <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
+  <project name="FraEgg/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-14.1-luis" />
   
   <!-- <project path="hardware/qcom/audio-caf/msm8937" name="omnirom/android_hardware_qcom_audio-caf-msm8937" revision="android-7.1" /> -->
   <!-- <project path="hardware/qcom/display-caf/msm8937" name="omnirom/android_hardware_qcom_display-caf-msm8937" revision="android-7.1" /> -->
