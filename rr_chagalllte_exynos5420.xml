@@ -14,7 +14,7 @@
   <!--Repositories to replace-->
   <remove-project name="android_packages_apps_LockClock" />
   
-  <project name="FraEgg/android_device_samsung_chagalllte" path="device/samsung/chagalllte" remote="github" revision="cm-14.1-beta" />
+  <project name="FraEgg/android_device_samsung_chagalllte" path="device/samsung/chagalllte" remote="github" revision="cm-14.1" />
 
   <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
   <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-oneplus3-luis" />
