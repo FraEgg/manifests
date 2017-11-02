@@ -49,8 +49,8 @@
   <remove-project name="android_packages_apps_Dialer" />
   <project name="FraEgg/rr_packages_apps_Dialer" path="packages/apps/Dialer" revision="nougat" />
   
-  <remove-project name="packages_apps_ResurrectionOTA" />
-  <project path="packages/apps/ResurrectionOTA" name="FraEgg/packages_apps_ResurrectionOTA" revision="nougat-LuisElementalx" />
+  <!-- <remove-project name="packages_apps_ResurrectionOTA" /> -->
+  <!-- <project path="packages/apps/ResurrectionOTA" name="FraEgg/packages_apps_ResurrectionOTA" revision="nougat-LuisElementalx" /> -->
   
   <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
