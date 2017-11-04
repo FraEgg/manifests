@@ -17,7 +17,7 @@
 
  <!--Repositories to fetch-->
   <!--Upstream-->
-  <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" />
+  <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" revision="cm-14.1-luis" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
   <project name="FraEgg/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-14.1-luis" />
   <!-- <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-14.1_pre_snapdragon_gallery" /> -->
