@@ -46,8 +46,8 @@
   <remove-project name="android_packages_apps_Dialer" />
   <project name="FraEgg/rr_packages_apps_Dialer" path="packages/apps/Dialer" revision="nougat" />
   
-  <!-- <remove-project name="packages_apps_ResurrectionOTA" /> -->
-  <!-- <project path="packages/apps/ResurrectionOTA" name="FraEgg/packages_apps_ResurrectionOTA" revision="nougat-Luis" /> -->
+  <remove-project name="android_vendor_resurrection" />
+  <project path="vendor/cm" name="FraEgg/android_vendor_resurrection" revision="nougat-luis" />
   
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
   
