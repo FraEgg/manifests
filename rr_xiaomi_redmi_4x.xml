@@ -41,7 +41,7 @@
   <project name="FraEgg/android_kernel_xiaomi_msm8937_nikesh001" path="kernel/xiaomi/msm8937" remote="github" revision="cm-14.1-luis" />
     
   <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
-  <!-- <project path="packages/apps/OOSCameras" name="FraEgg/android_packages_apps_oos_camera" revision="master" /> -->
+  <project path="packages/apps/OOSCameras" name="FraEgg/android_packages_apps_oos_camera" revision="master" />
 
   <!-- 
   <remove-project name="android_packages_apps_Dialer" />
