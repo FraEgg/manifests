@@ -53,6 +53,11 @@
  
   <remove-project name="android_vendor_resurrection" />
   <project path="vendor/cm" name="FraEgg/android_vendor_resurrection" revision="nougat-luis" />
+ 
+  <!--WireGuard-->
+  <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+  <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+ 
   
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
