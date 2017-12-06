@@ -48,10 +48,9 @@
   <project path="frameworks/base" name="FraEgg/rr_android_frameworks_base" revision="nougat" />
   
   <!--WireGuard-->
-  <!--
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
   <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
-  -->
+  
   <project name="FraEgg/armv7-cortex_a15-linux-gnueabihf-linaro-5.2-2016.09.02" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" remote="github" revision="master" />
   
 </manifest>
