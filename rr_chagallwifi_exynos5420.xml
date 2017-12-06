@@ -40,6 +40,10 @@
    
   <remove-project name="android_vendor_resurrection" />
   <project path="vendor/cm" name="FraEgg/android_vendor_resurrection" revision="nougat-luis" />
+  
+  <!-- fix qt change language problem -->
+  <remove-project name="android_frameworks_base" />
+  <project path="frameworks/base" name="FraEgg/rr_android_frameworks_base" revision="nougat" />  
     
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
     
