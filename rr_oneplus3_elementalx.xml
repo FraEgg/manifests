@@ -51,7 +51,7 @@
   
   <!-- fix qt change language problem -->
   <remove-project name="android_frameworks_base" />
-  <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="nougat" />
+  <project path="frameworks/base" name="FraEgg/rr_android_frameworks_base" revision="nougat" />
   
   <!--WireGuard-->
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
