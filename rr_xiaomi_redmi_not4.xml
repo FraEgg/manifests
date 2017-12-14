@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="bitbucket" fetch="https://bitbucket.org/" />
+
+  <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
+  <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-oneplus3-luis" />
+
+ <!--Repositories to replace-->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
+  <remove-project name="LineageOS/android_packages_apps_Snap" />
+  <remove-project name="android_packages_apps_LockClock" />
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_display" /> -->
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_media" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Updater" /> -->
+  <!-- <remove-project name="frameworks_av" /> -->
+  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+  
+  <!--Repositories to fetch-->
+  <!--Upstream-->
+  <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" revision="cm-14.1-luis" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
+  <project name="FraEgg/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-14.1-luis" />
+  
+  <!-- <project path="hardware/qcom/audio-caf/msm8937" name="omnirom/android_hardware_qcom_audio-caf-msm8937" revision="android-7.1" /> -->
+  <!-- <project path="hardware/qcom/display-caf/msm8937" name="omnirom/android_hardware_qcom_display-caf-msm8937" revision="android-7.1" /> -->
+  <!-- <project path="hardware/qcom/media-caf/msm8937" name="omnirom/android_hardware_qcom_media-caf-msm8937" revision="android-7.1" /> -->
+  
+  <!-- <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-13.0" /> -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1" />
+  
+  <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/santoni" remote="github" revision="cm-14.1" />
+  <project name="FraEgg/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
+  <project name="FraEgg/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8937" remote="github" revision="cm-14.1" />
+    
+  <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
+  <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
+  
+  <remove-project name="android_vendor_resurrection" />
+  <project path="vendor/cm" name="FraEgg/android_vendor_resurrection" revision="nougat-luis" />
+  
+  <!-- fix qt change language problem -->
+  <remove-project name="android_frameworks_base" />
+  <project path="frameworks/base" name="FraEgg/rr_android_frameworks_base" revision="nougat" />
+  
+  <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
+  
+  <!--WireGuard-->
+  
+  <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+  <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+ 
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" />
+
+ <!--Repositories to remove-->
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/ninja/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+</manifest>
