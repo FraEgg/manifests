@@ -38,7 +38,7 @@
   
   <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/santoni" remote="github" revision="cm-14.1" />
   <project name="FraEgg/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
-  <project name="FraEgg/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8937" remote="github" revision="cm-14.1" />
+  <project name="FraEgg/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="cm-14.1" />
     
   <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
   <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
