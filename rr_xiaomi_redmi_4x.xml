@@ -36,7 +36,7 @@
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1" />
   
-  <project name="Wzedlare/android_device_xiaomi_santoni" path="device/xiaomi/santoni" remote="github" revision="cm-14.1" />
+  <project name="android_device_xiaomi_santoni_wzedlare" path="device/xiaomi/santoni" remote="github" revision="cm-14.1-luis" />
   <project name="FraEgg/android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
   <project name="FraEgg/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="cm-14.1-luis" />
     
