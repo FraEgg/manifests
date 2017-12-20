@@ -20,8 +20,14 @@
   <!--Repositories to fetch-->
   <!--Upstream-->
 
-  <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" revision="cm-14.1-luis" revision="lineage-15.0" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.0" />
+   <!--Upstream-->
+  <project name="EvilDumplings/android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="lineage-15.0" />
+  <project name="EvilDumplings/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="lineage-15.0" />
+  <project name="NastyAndroidDevs/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-15.0" />
+  <project name="NastyAndroidDevs/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="lineage-15.0" />
+  <project name="NastyAndroidDevs/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.0" />
+  
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
   <project name="FraEgg/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-14.1-luis" />
   <!-- <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-13.0" /> -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
@@ -29,26 +35,22 @@
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" />
   <!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" /> -->
-  
-  <project name="FraEgg/android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="cm-14.1" />		
-  <project name="FraEgg/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="cm-14.1" />
-  
+
   <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
   <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
-  <project name="NastyAndroidDevs/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.0" />
 
   <remove-project name="android_vendor_resurrection" />
   <project path="vendor/cm" name="FraEgg/android_vendor_resurrection" revision="nougat-luis" />
-  
+
   <!-- fix qt change language problem -->
   <remove-project name="android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/rr_android_frameworks_base" revision="nougat" />
-  
+
   <!--WireGuard-->
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
   <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
-  
+
   <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
