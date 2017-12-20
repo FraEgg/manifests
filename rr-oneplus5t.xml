@@ -29,14 +29,11 @@
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" />
   <!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" /> -->
   
-  <project name="FraEgg/android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="cm-14.1" />
-  <project name="FraEgg/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="cm-14.1" />
-    
   <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
   <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
   <project name="NastyAndroidDevs/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.0" />
-  
+
   <remove-project name="android_vendor_resurrection" />
   <project path="vendor/cm" name="FraEgg/android_vendor_resurrection" revision="nougat-luis" />
   
