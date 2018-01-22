@@ -16,14 +16,14 @@
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
 
  <!-- Own RR-Repos --->
- <remove-project name="ResurrectionRemix/system_core" />
- <project name="FraEgg/rr_system_core" path="system/core" revision="rr" /> 
- <remove-project name="ResurrectionRemix/framework_native" />
- <project name="FraEgg/rr_framework_native" path="frameworks/native" revision="rr" />
- <remove-project name="ResurrectionRemix/android_build" />
- <project name="FraEgg/rr_android_build" path="build" revision="rr" />
- <remove-project name="ResurrectionRemix/frameworks_av" />
- <project name="FraEgg/rr_frameworks_av" path="device/oppo/common" revision="rr" />
+ <remove-project name="system_core" />
+ <project name="FraEgg/rr_system_core" path="system/core" revision="nougat" /> 
+ <remove-project name="framework_native" />
+ <project name="FraEgg/rr_framework_native" path="frameworks/native" revision="nougat" />
+ <remove-project name="android_build" />
+ <project name="FraEgg/rr_android_build" path="build" revision="nougat" />
+ <remove-project name="frameworks_av" />
+ <project name="FraEgg/rr_frameworks_av" path="frameworks/av" revision="nougat" />
  
  <!--Repositories to fetch-->
   <!--Upstream-->
