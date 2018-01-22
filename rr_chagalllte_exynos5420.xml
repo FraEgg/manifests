@@ -14,6 +14,16 @@
   <!--Repositories to replace-->
   <remove-project name="android_packages_apps_LockClock" />
   
+ <!-- Own RR-Repos -->
+ <remove-project name="system_core" />
+ <project name="FraEgg/rr_system_core" path="system/core" revision="nougat" />
+ <remove-project name="frameworks_native" />
+ <project name="FraEgg/rr_frameworks_native" path="frameworks/native" revision="nougat" />
+ <remove-project name="android_build" />
+ <project name="FraEgg/rr_android_build" path="build" revision="nougat" />
+ <remove-project name="frameworks_av" />
+ <project name="FraEgg/rr_frameworks_av" path="frameworks/av" revision="nougat" />
+  
   <project name="FraEgg/android_device_samsung_chagalllte" path="device/samsung/chagalllte" remote="github" revision="cm-14.1" />
 
   <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
