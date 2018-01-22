@@ -17,9 +17,9 @@
 
  <!-- Own RR-Repos -->
  <remove-project name="system_core" />
- <project name="FraEgg/rr_system_core" path="system/core" revision="nougat" /> 
- <remove-project name="framework_native" />
- <project name="FraEgg/rr_framework_native" path="frameworks/native" revision="nougat" />
+ <project name="FraEgg/rr_system_core" path="system/core" revision="nougat" />
+ <remove-project name="frameworks_native" />
+ <project name="FraEgg/rr_frameworks_native" path="frameworks/native" revision="nougat" />
  <remove-project name="android_build" />
  <project name="FraEgg/rr_android_build" path="build" revision="nougat" />
  <remove-project name="frameworks_av" />
