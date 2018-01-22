@@ -18,6 +18,16 @@
   <!-- <remove-project name="frameworks_av" /> -->
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   
+ <!-- Own RR-Repos -->
+ <remove-project name="system_core" />
+ <project name="FraEgg/rr_system_core" path="system/core" revision="nougat" />
+ <remove-project name="frameworks_native" />
+ <project name="FraEgg/rr_frameworks_native" path="frameworks/native" revision="nougat" />
+ <remove-project name="android_build" />
+ <project name="FraEgg/rr_android_build" path="build" revision="nougat" />
+ <remove-project name="frameworks_av" />
+ <project name="FraEgg/rr_frameworks_av" path="frameworks/av" revision="nougat" />
+  
   <!--Repositories to fetch-->
   <!--Upstream-->
   <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" revision="cm-14.1-luis" />
