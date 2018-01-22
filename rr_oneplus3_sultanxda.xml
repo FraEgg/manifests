@@ -15,6 +15,16 @@
   <!-- <remove-project name="LineageOS/android_packages_apps_Updater" /> -->
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
 
+ <!-- Own RR-Repos --->
+ <remove-project name="ResurrectionRemix/system_core" />
+ <project name="FraEgg/rr_system_core" path="system/core" revision="rr" /> 
+ <remove-project name="ResurrectionRemix/framework_native" />
+ <project name="FraEgg/rr_framework_native" path="frameworks/native" revision="rr" />
+ <remove-project name="ResurrectionRemix/android_build" />
+ <project name="FraEgg/rr_android_build" path="build" revision="rr" />
+ <remove-project name="ResurrectionRemix/frameworks_av" />
+ <project name="FraEgg/rr_frameworks_av" path="device/oppo/common" revision="rr" />
+ 
  <!--Repositories to fetch-->
   <!--Upstream-->
   <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" revision="cm-14.1-luis" />
