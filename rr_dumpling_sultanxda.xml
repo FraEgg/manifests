@@ -2,7 +2,7 @@
 <manifest>
 
  <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
- <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-oneplus3-luis" />
+ <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-oneplus5t-luis" />
 
  <!--Repositories to replace-->
   <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
@@ -38,15 +38,13 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" />
 
   <!--Custom-->
-  <project name="sultanxda/android_device_oneplus_dumpling" path="device/oneplus/dumpling" revision="cm-14.1-sultan" />
-  <project name="sultanxda/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" revision="cm-14.1-sultan" />
-  <project name="sultanxda/android_packages_apps_Snap" path="packages/apps/Snap" revision="oneplus5t/cm-14.1-sultan" />
-  <project name="sultanxda/proprietary_vendor_oneplus" path="vendor/oneplus" revision="cm-14.1-sultan" />
+  <project name="FraEgg/android_device_oneplus_dumpling_sultanxda" path="device/oneplus/dumpling" revision="cm-14.1-sultan" />
+  <project name="FraEgg/android_kernel_oneplus_msm8998_sultanxda" path="kernel/oneplus/msm8998" revision="cm-14.1-sultan" />
+  <project name="FraEgg/android_packages_apps_Sna_sultanxda" path="packages/apps/Snap" revision="oneplus5t/cm-14.1-sultan" />
+  <project name="FraEgg/proprietary_vendor_oneplus_sultanxda" path="vendor/oneplus" revision="cm-14.1-sultan" />
  
-  <!-- <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" /> --> 
   <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
-  <!-- <project path="vendor/oneplus" name="FraEgg/proprietary_vendor_oneplus_sultanxda" revision="cm-14.1-sultan" /> -->
  
   <remove-project name="android_vendor_resurrection" />
   <project path="vendor/cm" name="FraEgg/android_vendor_resurrection" revision="nougat-luis" />
