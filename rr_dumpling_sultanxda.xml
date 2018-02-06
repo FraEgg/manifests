@@ -38,7 +38,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" />
 
   <!--Custom-->
-  <project name="FraEgg/android_device_oneplus_dumpling_sultanxda" path="device/oneplus/dumpling" revision="cm-14.1-sultan" />
+  <project name="FraEgg/android_device_oneplus_dumpling_sultanxda" path="device/oneplus/dumpling" revision="cm-14.1-luis" />
   <project name="FraEgg/android_kernel_oneplus_msm8998_sultanxda" path="kernel/oneplus/msm8998" revision="cm-14.1-sultan" />
   <project name="FraEgg/android_packages_apps_Snap_sultanxda" path="packages/apps/Snap" revision="oneplus5t/cm-14.1-sultan" />
   <project name="FraEgg/proprietary_vendor_oneplus_sultanxda" path="vendor/oneplus" revision="cm-14.1-sultan" />
