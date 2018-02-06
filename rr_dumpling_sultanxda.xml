@@ -5,9 +5,9 @@
  <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-oneplus3-luis" />
 
  <!--Repositories to replace-->
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_display" /> -->
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_media" /> -->
   <remove-project name="LineageOS/android_packages_apps_Snap" />
   <remove-project name="android_packages_apps_LockClock" />
   <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
