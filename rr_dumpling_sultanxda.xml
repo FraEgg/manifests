@@ -2,7 +2,7 @@
 <manifest>
 
  <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
- <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-oneplus5t-luis" />
+ <project path="patcher" name="FraEgg/patcher_sultanxda" revision="cm-14.1-dumpling-luis" />
 
  <!--Repositories to replace-->
   <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
