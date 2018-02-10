@@ -12,6 +12,6 @@
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
 
     <!-- Vendor -->
-    <project name="NastyAndroidDevs/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
+    <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="oreo" />
 
 </manifest>
