@@ -27,7 +27,7 @@
  
  <!--Repositories to fetch-->
   <!--Upstream-->
-  <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" revision="cm-14.1-luis" />
+  <project name="FraEgg/rr_android_device_oppo_common" path="device/oppo/common" revision="cm-14.1-luis" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
   <project name="FraEgg/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-14.1-luis" />
   <!-- <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-14.1_pre_snapdragon_gallery" /> -->
@@ -41,7 +41,7 @@
   <project name="FraEgg/rr_android_device_oneplus_dumpling" path="device/oneplus/dumpling" revision="cm-14.1-luis" />
   <project name="FraEgg/rr_android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" revision="cm-14.1-luis" />
   <project name="FraEgg/android_packages_apps_Snap_sultanxda" path="packages/apps/Snap" revision="oneplus5t/cm-14.1-sultan" />
-  <project name="FraEgg/proprietary_vendor_oneplus_sultanxda" path="vendor/oneplus" revision="cm-14.1-sultan" />
+  <project name="FraEgg/rr_proprietary_vendor_oneplus" path="vendor/oneplus" revision="cm-14.1-sultan" />
  
   <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
