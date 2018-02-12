@@ -27,10 +27,9 @@
  
  <!--Repositories to fetch-->
   <!--Upstream-->
-  <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" revision="cm-14.1-luis" />
+  <project name="FraEgg/rr_android_device_oppo_common" path="device/oppo/common" revision="cm-14.1-luis" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
   <project name="FraEgg/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-14.1-luis" />
-  <!-- <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-14.1_pre_snapdragon_gallery" /> -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" />
