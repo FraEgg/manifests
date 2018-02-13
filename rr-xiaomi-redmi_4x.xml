@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- OnePlus -->
-    <project name="FraEgg/rr_android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="github" revision="oreo" />
+    <!-- Xiaomi -->
+    <project name="FraEgg/android_device_xiaomi_santoni" path="device/xiaomi/santoni" remote="github" revision="lineage-15.1" />
     <project name="FraEgg/rr_android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-15.1" />
-    <project name="FraEgg/rr_android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="oreo-luis" />
-
+    <project name="FraEgg/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="lineage-15.1" />
+    
     <!-- General -->
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
 
     <!-- Vendor -->
-    <project name="FraEgg/rr_proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
-
+    <project name="FraEgg/android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="lineage-15.1" />
+    
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
