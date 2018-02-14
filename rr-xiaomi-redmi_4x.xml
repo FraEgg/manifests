@@ -12,7 +12,6 @@
 
     <!-- Vendor -->
     <project name="FraEgg/rr_android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="oreo" />
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
     
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
