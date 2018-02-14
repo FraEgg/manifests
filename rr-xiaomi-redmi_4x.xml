@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Xiaomi -->
+    <project name="FraEgg/rr_android_device_xiaomi_santoni" path="device/xiaomi/santoni" remote="github" revision="oreo" />
+    <project name="FraEgg/rr_android_device_oppo_common" path="device/oppo/common" remote="github" revision="oreo" />
+    <project name="FraEgg/rr_android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="oreo" />
+    
+    <!-- General -->
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+    <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+
+    <!-- Vendor -->
+    <project name="FraEgg/rr_android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="oreo" />
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
+    
+    <!-- LuisROM -->
+    <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
+    <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
+    
+    <remove-project name="ResurrectionRemix/android_frameworks_base" />
+    <project path="frameworks/base" name="FraEgg/rr_android_frameworks_base" revision="oreo" />
+
+</manifest>
