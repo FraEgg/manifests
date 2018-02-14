@@ -8,10 +8,10 @@
     
     <!-- General -->
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
-
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="staging/lineage-15.1" />
+    
     <!-- Vendor -->
     <project name="FraEgg/rr_android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="lineage-15.1" />
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
     
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
@@ -19,5 +19,5 @@
     
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
     <project path="frameworks/base" name="FraEgg/rr_android_frameworks_base" revision="oreo" />
-
-</manifest>
+    
+<manifest>
