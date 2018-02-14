@@ -7,7 +7,6 @@
     <project name="FraEgg/rr_android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="lineage-15.1" />
     
     <!-- General -->
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
 
     <!-- Vendor -->
