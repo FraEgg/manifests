@@ -10,12 +10,6 @@
   <!-- <remove-project name="LineageOS/android_packages_apps_Gallery2" /> -->
   <remove-project name="LineageOS/android_packages_apps_Snap" />
   <remove-project name="android_packages_apps_LockClock" />
-  <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
-  <!-- <remove-project name="LineageOS/android_hardware_qcom_display" /> -->
-  <!-- <remove-project name="LineageOS/android_hardware_qcom_media" /> -->
-  <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
-  <!-- <remove-project name="LineageOS/android_packages_apps_Updater" /> -->
-  <!-- <remove-project name="frameworks_av" /> -->
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   
  <!-- Own RR-Repos -->
@@ -38,7 +32,6 @@
   <!-- <project path="hardware/qcom/display-caf/msm8937" name="omnirom/android_hardware_qcom_display-caf-msm8937" revision="android-7.1" /> -->
   <!-- <project path="hardware/qcom/media-caf/msm8937" name="omnirom/android_hardware_qcom_media-caf-msm8937" revision="android-7.1" /> -->
   
-  <!-- <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="cm-13.0" /> -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" />
