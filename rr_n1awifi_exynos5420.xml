@@ -16,13 +16,13 @@
   
  <!-- Own RR-Repos -->
  <remove-project name="system_core" />
- <project name="FraEgg/rr_system_core" path="system/core" revision="nougat" />
+ <project name="FraEgg/system_core" path="system/core" revision="nougat" />
  <remove-project name="frameworks_native" />
- <project name="FraEgg/rr_frameworks_native" path="frameworks/native" revision="nougat" />
+ <project name="FraEgg/frameworks_native" path="frameworks/native" revision="nougat" />
  <remove-project name="android_build" />
- <project name="FraEgg/rr_android_build" path="build" revision="nougat" />
+ <project name="FraEgg/android_build" path="build" revision="nougat" />
  <remove-project name="frameworks_av" />
- <project name="FraEgg/rr_frameworks_av" path="frameworks/av" revision="nougat" />
+ <project name="FraEgg/frameworks_av" path="frameworks/av" revision="nougat" />
   
   <project name="FraEgg/android_device_samsung_n1awifi" path="device/samsung/n1awifi" remote="github" revision="cm-14.1" />
   
@@ -55,7 +55,7 @@
   
   <!-- fix qt change language problem -->
   <remove-project name="android_frameworks_base" />
-  <project path="frameworks/base" name="FraEgg/rr_android_frameworks_base" revision="nougat" />
+  <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="nougat" />
   
   <!--WireGuard-->
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
