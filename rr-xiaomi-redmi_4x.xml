@@ -3,7 +3,7 @@
 
     <!-- Xiaomi -->
     <project name="FraEgg/android_device_xiaomi_santoni" path="device/xiaomi/santoni" remote="github" revision="rr-oreo" />
-    <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="rr-oreo" />
+    <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-15.1" />
     <project name="FraEgg/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="rr-oreo" />
 
     <!-- General -->
