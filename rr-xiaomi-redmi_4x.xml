@@ -2,9 +2,9 @@
 <manifest>
 
     <!-- Xiaomi -->
-    <project name="FraEgg/rr_android_device_xiaomi_santoni" path="device/xiaomi/santoni" remote="github" revision="oreo" />
-    <project name="FraEgg/rr_android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-15.1" />
-    <project name="FraEgg/rr_android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="oreo" />
+    <project name="FraEgg/android_device_xiaomi_santoni" path="device/xiaomi/santoni" remote="github" revision="rr-oreo" />
+    <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="rr-oreo" />
+    <project name="FraEgg/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="rr-oreo" />
 
     <!-- General -->
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
@@ -13,14 +13,14 @@
     <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" />
 
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom/audio/default" name="HridayHS/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-caf-8996" />
+    <project path="hardware/qcom/audio/default" name="TeamButter/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-8996" />
     <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <project path="hardware/qcom/media" name="HridayHS/android_hardware_qcom_media" remote="github" revision="lineage-15.1-caf-8996" />
+    <project path="hardware/qcom/media" name="TeamButter/android_hardware_qcom_media" remote="github" revision="lineage-15.1-8996" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <project path="hardware/qcom/display" name="HridayHS/android_hardware_qcom_display" remote="github" revision="lineage-15.1-caf-8996" />
+    <project path="hardware/qcom/display" name="TeamButter/android_hardware_qcom_display" remote="github" revision="lineage-15.1-8996" />
 
     <!-- Vendor -->
-    <project name="FraEgg/rr_android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="oreo" />
+    <project name="FraEgg/android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="rr-oreo" />
 
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
