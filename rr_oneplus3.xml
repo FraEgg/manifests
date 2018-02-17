@@ -23,10 +23,10 @@
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
     
     
-    <remove-project name="LineageOS/android_packages_apps_Camera2" />
+    <!-- <remove-project name="LineageOS/android_packages_apps_Camera2" /> -->
     <!-- <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" /> -->
     
-    <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" />
+    <!-- <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" /> -->
     <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
     
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
