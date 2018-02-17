@@ -19,6 +19,10 @@
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project path="hardware/qcom/display" name="TeamButter/android_hardware_qcom_display" remote="github" revision="lineage-15.1-8996" />
 
+    <!-- Temporaer compilerproblems 17.02.2018 -->
+    <remove-project name="LineageOS/android_bionic" />
+    <project path="bionic" name="FraEgg/android_bionic" remote="github" revision="lineage-15.1" />
+    
     <!-- Vendor -->
     <project name="FraEgg/android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="rr-oreo" />
 
