@@ -12,8 +12,10 @@
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
 
     <!-- Temporaer compilerproblems 17.02.2018 -->
+    <!--
     <remove-project name="LineageOS/android_bionic" />
     <project path="bionic" name="FraEgg/android_bionic" remote="github" revision="lineage-15.1" />
+    -->    
 
     <!-- Vendor -->
     <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
@@ -27,8 +29,8 @@
     
     <!-- <remove-project name="LineageOS/android_packages_apps_Camera2" /> -->
     <!-- <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" /> -->
-    
     <!-- <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus5t/cm-14.1-sultan" /> -->
+    
     <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" />
     
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
