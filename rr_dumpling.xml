@@ -24,7 +24,7 @@
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
     
-    <remove-project name="ResurrectionRemix/packages_apps_ResurrectionOTA" />
+    <remove-project name="packages_apps_ResurrectionOTA" />
     <project path="packages/apps/ResurrectionOTA" name="ResurrectionRemix/packages_apps_ResurrectionOTA" remote="github" revision="nougat" />
     
     <!-- <remove-project name="LineageOS/android_packages_apps_Camera2" /> -->
