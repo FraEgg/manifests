@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
     <!-- Xiaomi -->
@@ -32,5 +31,8 @@
 
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
     <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo" />
-
+    
+    <remove-project name="packages_apps_ResurrectionOTA" />
+    <project path="packages/apps/ResurrectionOTA" name="ResurrectionRemix/packages_apps_ResurrectionOTA" remote="github" revision="nougat" />
+   
 </manifest>
