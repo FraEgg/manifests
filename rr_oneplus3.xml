@@ -10,9 +10,10 @@
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
     
     <!-- Temporaer compilerproblems 17.02.2018 -->
+    <!--
     <remove-project name="LineageOS/android_bionic" />
     <project path="bionic" name="FraEgg/android_bionic" remote="github" revision="lineage-15.1" />
-
+    -->
 
     <!-- Vendor -->
     <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
