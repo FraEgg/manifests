@@ -23,10 +23,9 @@
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
     
-    <!--
-    <remove-project name="packages_apps_ResurrectionOTA" />
-    <project path="packages/apps/ResurrectionOTA" name="ResurrectionRemix/packages_apps_ResurrectionOTA" remote="github" revision="nougat" />
-    -->
+    <remove-project name="LineageOS/android_packages_providers_WeatherProvider" />
+    <project path="packages/providers/WeatherProvider" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
+    
     <!-- <remove-project name="LineageOS/android_packages_apps_Camera2" /> -->
     <!-- <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" /> -->
     <!-- <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus5t/cm-14.1-sultan" /> -->
