@@ -17,10 +17,6 @@
     <project path="hardware/qcom/media" name="TeamButter/android_hardware_qcom_media" remote="github" revision="lineage-15.1-8996" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project path="hardware/qcom/display" name="TeamButter/android_hardware_qcom_display" remote="github" revision="lineage-15.1-8996" />
-
-    <!-- Temporaer compilerproblems 17.02.2018 -->
-    <remove-project name="LineageOS/android_bionic" />
-    <project path="bionic" name="FraEgg/android_bionic" remote="github" revision="lineage-15.1" />
     
     <!-- Vendor -->
     <project name="FraEgg/android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="rr-oreo" />
@@ -28,11 +24,5 @@
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
-
-    <remove-project name="ResurrectionRemix/android_frameworks_base" />
-    <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo" />
-    
-    <remove-project name="packages_apps_ResurrectionOTA" />
-    <project path="packages/apps/ResurrectionOTA" name="ResurrectionRemix/packages_apps_ResurrectionOTA" remote="github" revision="nougat" />
    
 </manifest>
