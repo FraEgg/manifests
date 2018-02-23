@@ -19,10 +19,10 @@
     <!--
     <remove-project name="packages_apps_ResurrectionOTA" />
     <project path="packages/apps/ResurrectionOTA" name="ResurrectionRemix/packages_apps_ResurrectionOTA" remote="github" revision="nougat" />
-    
+    -->    
+
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
     <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo" />
-    -->
     
     <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" />
     
