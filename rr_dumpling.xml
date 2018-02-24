@@ -12,8 +12,7 @@
 
     <!-- temporary fix 24.02.2018 -->
     <remove-project name="LineageOS/android_system_vold" />
-    <project path="system/vold" name="FraEgg/android_system_sepolicy" revision="oreo" />
-
+    <project path="system/vold" name="FraEgg/android_system_vold" revision="oreo" />
 
     <!-- Vendor -->
     <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
