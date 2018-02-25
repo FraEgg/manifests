@@ -18,12 +18,14 @@
     <project path="device/qcom/sepolicy" name="FraEgg/device_qcom_sepolicy" remote="github" revision="oreo-luis" />
     
     <!-- QCOM -->
+    <!--
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
     <project path="hardware/qcom/audio/default" name="omnirom/android_hardware_qcom_audio-caf-msm8937" remote="github" revision="android-7.1" />
     <remove-project name="LineageOS/android_hardware_qcom_media" />
     <project path="hardware/qcom/media" name="omnirom/android_hardware_qcom_media-caf-msm8937" remote="github" revision="android-7.1" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project path="hardware/qcom/display" name="omnirom/android_hardware_qcom_display-caf-msm8937" remote="github" revision="android-7.1" />
+    -->
     
     <!-- Vendor -->
     <project name="Nikesh001/android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="lineage-15.0_rebase" />
