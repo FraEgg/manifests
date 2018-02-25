@@ -11,11 +11,12 @@
     <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
     <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" />
     
-    <!-- Temp 25.02.2018 -->
+    <!-- Temp 25.02.2018 
     <remove-project name="device_rr_sepolicy" />
     <project path="device/rr/sepolicy" name="FraEgg/device_rr_sepolicy" remote="github" revision="oreo-luis" />
     <remove-project name="device_qcom_sepolicy" />
     <project path="device/qcom/sepolicy" name="FraEgg/device_qcom_sepolicy" remote="github" revision="oreo-luis" />
+    -->
     
     <!-- QCOM -->
     <!--
