@@ -11,10 +11,6 @@
     <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
     <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" />
     
-    <!-- Temporary fix 24.02.2018
-    <remove-project name="LineageOS/android_system_sepolicy" />
-    <project path="system/sepolicy" name="FraEgg/android_system_sepolicy" revision="lineage-15.1" />
-    -->
     <!--
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
     <project path="hardware/qcom/audio/default" name="TeamButter/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-8996" />
@@ -22,7 +18,8 @@
     <project path="hardware/qcom/media" name="TeamButter/android_hardware_qcom_media" remote="github" revision="lineage-15.1-8996" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project path="hardware/qcom/display" name="TeamButter/android_hardware_qcom_display" remote="github" revision="lineage-15.1-8996" />
-    -->    
+    -->   
+    
     <!-- Vendor -->
     <project name="FraEgg/android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="rr-oreo" />
 
