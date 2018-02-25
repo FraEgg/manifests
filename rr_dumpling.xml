@@ -15,6 +15,10 @@
     <project path="system/sepolicy" name="FraEgg/android_system_sepolicy" revision="oreo" />   
     -->
     
+    <!-- Temp 25.02.2018 -->
+    <remove-project name="device_rr_sepolicy" />
+    <project path="device/rr/sepolicy" name="FraEgg/device_rr_sepolicy" remote="github" revision="oreo-luis" />
+    
     <!-- Vendor -->
     <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
 
