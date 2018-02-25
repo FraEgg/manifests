@@ -14,6 +14,8 @@
     <!-- Temp 25.02.2018 -->
     <remove-project name="device_rr_sepolicy" />
     <project path="device/rr/sepolicy" name="FraEgg/device_rr_sepolicy" remote="github" revision="oreo-luis" />
+    <remove-project name="device_qcom_sepolicy" />
+    <project path="device/qcom/sepolicy" name="FraEgg/device_qcom_sepolicy" remote="github" revision="oreo-luis" />
     
     <!--
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
