@@ -17,14 +17,13 @@
     <remove-project name="device_qcom_sepolicy" />
     <project path="device/qcom/sepolicy" name="FraEgg/device_qcom_sepolicy" remote="github" revision="oreo-luis" />
     
-    <!--
+    <!-- QCOM -->
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom/audio/default" name="TeamButter/android_hardware_qcom_audio" remote="github" revision="lineage-15.1-8996" />
+    <project path="hardware/qcom/audio/default" name="Nikesh001/android_hardware_qcom_audio" remote="github" revision="o2-caf-8937" />
     <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <project path="hardware/qcom/media" name="TeamButter/android_hardware_qcom_media" remote="github" revision="lineage-15.1-8996" />
+    <project path="hardware/qcom/media" name="Nikesh001/android_hardware_qcom_media" remote="github" revision="o2-caf-8937" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <project path="hardware/qcom/display" name="TeamButter/android_hardware_qcom_display" remote="github" revision="lineage-15.1-8996" />
-    -->   
+    <project path="hardware/qcom/display" name="Nikesh001/android_hardware_qcom_display" remote="github" revision="o2-caf-msm8996" />
     
     <!-- Vendor -->
     <project name="Nikesh001/android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="lineage-15.0_rebase" />
