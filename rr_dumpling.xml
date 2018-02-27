@@ -18,7 +18,7 @@
     -->
     
     <!-- Vendor -->
-    <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
+    <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="oreo-luis" />
 
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
