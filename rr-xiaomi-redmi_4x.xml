@@ -8,7 +8,7 @@
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1"/>
  
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom/audio/default" name="FraEgg/android_hardware_qcom_audio" revision="lineage-15.1-caf-8996" />
+    <project path="hardware/qcom/audio/default" name="FraEgg/android_hardware_qcom_audio" revision="lineage-15.1" />
     
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
