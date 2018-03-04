@@ -18,6 +18,7 @@
     <remove-project name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
     <remove-project name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
     <remove-project name="LineageOS/android_packages_apps_YahooWeatherProvider" />
+    <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
   
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
     <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
