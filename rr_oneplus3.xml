@@ -16,17 +16,12 @@
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
     
-    <!-- Temp 25.02.2018 
-    <remove-project name="device_rr_sepolicy" />
-    <project path="device/rr/sepolicy" name="FraEgg/device_rr_sepolicy" remote="github" revision="oreo-luis" />
-    <remove-project name="device_qcom_sepolicy" />
-    <project path="device/qcom/sepolicy" name="FraEgg/device_qcom_sepolicy" remote="github" revision="oreo-luis" />
-    -->
-    
-    <!--
-    <remove-project name="packages_apps_ResurrectionOTA" />
-    <project path="packages/apps/ResurrectionOTA" name="ResurrectionRemix/packages_apps_ResurrectionOTA" remote="github" revision="nougat" />
-    -->    
+    <!-- Fix WeatherProvider -->
+    <remove-project name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
+    <remove-project name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
+    <remove-project name="LineageOS/android_packages_apps_YahooWeatherProvider" />
+    <remove-project name="LineageOS/android_packages_providers_WeatherProvider" />
+    <project path="packages/providers/WeatherProvider" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="oreo-luis" />
 
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
     <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
