@@ -20,11 +20,13 @@
     <remove-project name="packages_apps_LineageParts" />
     <project path="packages/apps/LineageParts" name="FraEgg/packages_apps_LineageParts" revision="oreo" />
     
+    <!--
     <remove-project name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
     <remove-project name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
     <remove-project name="LineageOS/android_packages_apps_YahooWeatherProvider" />
     <remove-project name="LineageOS/android_packages_providers_WeatherProvider" />
     <project path="packages/providers/WeatherProvider" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="oreo-luis" />
+    -->
     
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
     <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
