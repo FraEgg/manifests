@@ -16,9 +16,10 @@
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
     
-    <!-- Temp fix 07.03.2018  -->
+    <!-- Temp fix 07.03.2018      
     <remove-project name="packages_apps_LineageParts" />
     <project path="packages/apps/LineageParts" name="FraEgg/packages_apps_LineageParts" revision="oreo" />
+    -->
     
     <!--
     <remove-project name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
