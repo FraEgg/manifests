@@ -43,7 +43,7 @@
   <project name="FraEgg/android_device_samsung_exynos5420-common" path="device/samsung/exynos5420-common" remote="github" revision="cm-14.1" />
   <project name="FraEgg/proprietary_vendor_samsung_exynos5420" path="vendor/samsung" remote="github" revision="cm-14.1" />
   <project name="exynos5420/android_hardware_samsung_slsi-cm_exynos5420" path="hardware/samsung_slsi-cm/exynos5420" remote="github" revision="cm-14.1" />
-  <project name="FraEgg/android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="github" revision="cm-14.1" />
+  <project name="FraEgg/android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="github" revision="nougat-luis" />
   
 <!--Custom-->
   
