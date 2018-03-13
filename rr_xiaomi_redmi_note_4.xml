@@ -57,7 +57,7 @@
   
   <!-- fix qt change language problem -->
   <remove-project name="android_frameworks_base" />
-  <project path="frameworks/base" name="FraEgg/rr_android_frameworks_base" revision="nougat" />
+  <project path="frameworks/base" name="FraEgg/rr_android_frameworks_base" revision="nougat-luis" />
   
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
   
