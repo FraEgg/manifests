@@ -53,7 +53,7 @@
   
   <!-- fix qt change language problem -->
   <remove-project name="android_frameworks_base" />
-  <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="nougat" />
+  <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="nougat-luis" />
  
  <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
