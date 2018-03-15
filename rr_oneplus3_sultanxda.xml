@@ -27,7 +27,7 @@
  <!--Repositories to fetch-->
   <!--Upstream-->
   <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" revision="cm-14.1-luis" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="cm-14.1" />
   <project name="FraEgg/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-14.1-luis" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" />
@@ -51,7 +51,6 @@
   <remove-project name="android_vendor_resurrection" />
   <project path="vendor/cm" name="FraEgg/android_vendor_resurrection" revision="nougat-luis" />
   
-  <!-- fix qt change language problem -->
   <remove-project name="android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="nougat-luis" />
  
