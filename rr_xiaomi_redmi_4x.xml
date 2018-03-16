@@ -12,7 +12,6 @@
   <!-- <remove-project name="LineageOS/android_packages_apps_CMUpdater" /> -->
   <!-- <remove-project name="LineageOS/android_packages_apps_Updater" /> -->
   <!-- <remove-project name="frameworks_av" /> -->
-  <!-- <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" /> -->
   
  <!-- Own RR-Repos -->
  <remove-project name="system_core" />
@@ -51,5 +50,8 @@
   <project path="vendor/cm" name="FraEgg/android_vendor_resurrection" remote="github" revision="nougat-luis" />
   
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
+  
+  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" />
 
 </manifest>
