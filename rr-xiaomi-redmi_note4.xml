@@ -2,16 +2,18 @@
 
     <!-- Xiaomi -->
     <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/mido" revision="oreo-luis-rr" />
-    <project name="FraEgg/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" revision="oreo-luis" />
+    <project name="FraEgg/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" revision="oreo-luis-fk" />
     <project name="FraEgg/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="oreo-luis" />
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" />
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1"/>
     <!-- <project name="LineageOS/android_external_one-true-awk" path="external/one-true-awk" remote="github" /> -->
 	
+    <!--
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
     <project path="hardware/qcom/audio/default" name="FraEgg/android_hardware_qcom_audio" />
     <project path="hardware/qcom/audio-caf/msm8996" name="FraEgg/android_hardware_qcom_audio" revision="lineage-15.1-caf-8996" />
-    
+    -->
+	
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
