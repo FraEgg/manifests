@@ -21,7 +21,8 @@
 
     <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
     
+    <!--
     <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="FraEgg/aarch64-linux-android-4.9" remote="github" revision="master" />
-
+    -->
 </manifest>
