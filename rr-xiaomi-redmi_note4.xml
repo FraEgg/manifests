@@ -21,7 +21,7 @@
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="FraEgg/aarch64-linux-android-4.9" remote="github" revision="master" />
 
     <!-- Temp 25.03.2018 -->
-    <remove-project name="LineageOS/frameworks_av" />
-    <project name="FraEgg/frameworks_av" path="frameworks/av" revision="lineage-15.1" />
+    <remove-project name="LineageOS/android_frameworks_av" />
+    <project name="FraEgg/frameworks_av" path="frameworks/av" remote="github" revision="lineage-15.1" />
 
 </manifest>
