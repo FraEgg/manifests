@@ -14,7 +14,6 @@
     <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="oreo-luis" />
 
     <!-- LuisROM -->
-    <!--
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
 
@@ -22,7 +21,6 @@
     <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
 
     <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" />
-    -->
     
     <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="FraEgg/aarch64-linux-android-4.9" remote="github" revision="master" />
