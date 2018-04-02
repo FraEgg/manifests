@@ -1,6 +1,6 @@
 <manifest>
-  
-  <remote  name="exynos5420"
+
+    <remote  name="exynos5420"
            fetch="https://github.com"
            review="review.exynos5420.com"
            revision="cm-14.1" />
@@ -9,9 +9,9 @@
            fetch="https://github.com"
            review="review.lineageos.org"
            revision="lineage-15.1" />
-    
+
   <project name="FraEgg/android_device_samsung_chagalllte" path="device/samsung/chagalllte" remote="github" revision="oreo-exy-luis" />
-  
+
   <!-- LineageOS -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineageos" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="lineageos" />
@@ -23,17 +23,17 @@
 
   <!-- Team Exynos 5420 -->
   <project name="FraEgg/android_device_samsung_exynos5420-common" path="device/samsung/exynos5420-common" remote="github" revision="oreo-exy-luis" />
-  <project name="FraEgg/proprietary_vendor_samsung_exynos5420" path="vendor/samsung" remote="github" revision="oreo-exy-luis" />
+  <project name="FraEgg/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="oreo-exy-luis" />
   <project name="exynos5420/android_hardware_samsung_slsi-cm_exynos5420" path="hardware/samsung_slsi-cm/exynos5420" remote="github" revision="lineage-15.1" />
   <project name="FraEgg/android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="github" revision="oreo-exy-luis" />
-  
+
    <!--Custom-->
    <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
    <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
-  
+
    <remove-project name="ResurrectionRemix/android_frameworks_base" />
    <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
-  
+
   <!-- <project name="FraEgg/armv7-cortex_a15-linux-gnueabihf-linaro-5.2-2016.09.02" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" remote="github" revision="master" /> -->
-  
+
 </manifest>
