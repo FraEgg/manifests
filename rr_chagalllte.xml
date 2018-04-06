@@ -23,9 +23,9 @@
   <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="lineageos" />
     
   <!-- Team Exynos 5420 -->
-  <project name="exynos5420/android_device_samsung_exynos5420-common" path="device/samsung/exynos5420-common" remote="exynos5420" />
-  <project name="exynos5420/proprietary_vendor_samsung" path="vendor/samsung" remote="exynos5420" />
-  <project name="exynos5420/android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="exynos5420" />
+  <project name="android_device_samsung_exynos5420-common" path="device/samsung/exynos5420-common" remote="exynos5420" />
+  <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="exynos5420" />
+  <project name="android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="exynos5420" />
 
    <!--Custom-->
    <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
