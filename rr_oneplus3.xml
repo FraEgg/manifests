@@ -22,6 +22,7 @@
 
     <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" />
     
-    <project path="prebuilts/gcc/linux-x86/aarch64/gcc-prebuilts-4.9-kernel" name="FraEgg/aarch64-linux-android-4.9-kernel" remote="github" revision="master" />
-    
+    <!-- <project path="prebuilts/gcc/linux-x86/aarch64/gcc-prebuilts-4.9-kernel" name="FraEgg/aarch64-linux-android-4.9-kernel" remote="github" revision="master" /> -->
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-opt-linux-android" name="FraEgg/aarch64-linux-android" remote="github" revision="opt-linaro-7.x" />
+
 </manifest>
