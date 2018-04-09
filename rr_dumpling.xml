@@ -29,6 +29,9 @@
     <remove-project name="frameworks_native" />
     <project path="frameworks/native" name="FraEgg/frameworks_native" revision="oreo" />
     
+    <remove-project name="packages_apps_LineageParts" />
+	<project name="FraEgg/packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="oreo" />
+    
     <!--
     <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="FraEgg/aarch64-linux-android-4.9" remote="github" revision="master" /> -->
