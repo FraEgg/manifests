@@ -20,6 +20,9 @@
 
     <remove-project name="frameworks_native" />
     <project path="frameworks/native" name="FraEgg/frameworks_native" revision="oreo" />
+    
+    <remove-project name="packages_apps_LineageParts" />
+	<project name="FraEgg/packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="oreo" />
 
     <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
     
