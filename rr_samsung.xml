@@ -1,0 +1,67 @@
+<manifest>
+
+  <remote  name="exynos5420"
+           fetch="https://github.com"
+           review="review.exynos5420.com"
+           revision="cm-14.1" />
+
+  <remote  name="lineageos"
+           fetch="https://github.com"
+           review="review.lineageos.org"
+           revision="cm-14.1" />
+
+  <project name="FraEgg/android_device_samsung_chagalllte" path="device/samsung/chagalllte" remote="github" revision="cm-14.1-new" />
+  <project name="FraEgg/android_device_samsung_chagallwifi" path="device/samsung/chagallwifi" remote="github" revision="cm-14.1-new" />
+  <project name="FraEgg/android_device_samsung_n1awifi" path="device/samsung/n1awifi" remote="github" revision="cm-14.1-new" />
+  <project name="FraEgg/android_device_samsung_klimtwifi" path="device/samsung/klimtwifi" remote="github" revision="cm-14.1-new" />
+  <project name="FraEgg/android_device_samsung_klimtlte" path="device/samsung/klimtlte" remote="github" revision="cm-14.1-new" />
+  
+  <!-- LineageOS -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineageos" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="lineageos" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="lineageos" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="lineageos" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="lineageos" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="lineageos" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="lineageos" />
+
+  <!-- Team Exynos 5420 -->
+  <project name="FraEgg/android_device_samsung_exynos5420-common" path="device/samsung/exynos5420-common" remote="github" revision="cm-14.1-new" />
+  <project name="FraEgg/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
+  <project name="FraEgg/android_hardware_samsung_slsi-cm_exynos5420" path="hardware/samsung_slsi-cm/exynos5420" remote="github" revision="cm-14.1" />
+  <project name="FraEgg/android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="github" revision="cm-14.1-new" />
+
+  <!-- Own RR-Repos -->
+  <remove-project name="system_core" />
+  <project name="FraEgg/system_core" path="system/core" remote="github" revision="nougat" />
+  <remove-project name="frameworks_native" />
+  <project name="FraEgg/frameworks_native" path="frameworks/native" remote="github" revision="nougat" />
+  <remove-project name="android_build" />
+  <project name="FraEgg/android_build" path="build" remote="github" revision="nougat" />
+  <remove-project name="frameworks_av" />
+  <project name="FraEgg/frameworks_av" path="frameworks/av" remote="github" revision="nougat" />
+ 
+  <remove-project name="android_vendor_resurrection" />
+  <project path="vendor/cm" name="FraEgg/android_vendor_resurrection" remote="github" revision="nougat-luis" />
+  
+  <!-- fix qt change language problem -->
+  <remove-project name="android_frameworks_base" />
+  <project path="frameworks/base" name="FraEgg/android_frameworks_base" remote="github" revision="nougat-luis" />
+  
+  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" />
+  
+  <!--Repositories to remove-->
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/ninja/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+
+</manifest>
