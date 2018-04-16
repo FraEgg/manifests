@@ -40,7 +40,7 @@
   <project name="FraEgg/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="nougat-luis-ck" />
     
   <!-- <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" /> -->
-  <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
+  <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="nougat" />
   <project name="FraEgg/android_packages_apps_LockClock" path="packages/apps/LockClock" revision="cm-14.1-luis" />
   
   <remove-project name="android_frameworks_base" />
