@@ -27,7 +27,7 @@
     <remove-project name="ResurrectionRemix/Resurrection_packages_apps_Settings" />
     <project name="FraEgg/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="oreo" />	
 	
-    <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
+    <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" />
     
     <!-- <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" /> -->
     <!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="FraEgg/aarch64-linux-android-4.9" remote="github" revision="master" /> -->
