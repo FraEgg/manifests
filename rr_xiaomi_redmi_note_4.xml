@@ -41,7 +41,7 @@
   <project name="FraEgg/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="nougat-luis" />
     
   <!-- <project path="packages/apps/Snap" name="FraEgg/android_packages_apps_Snap_sultanxda" revision="oneplus3/cm-14.1-sultan" /> -->
-  <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="master" />
+  <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="nougat" />
   
   <remove-project name="android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="nougat-luis" />
