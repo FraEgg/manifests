@@ -13,7 +13,7 @@
     <project path="hardware/qcom/audio-caf/msm8996" name="FraEgg/android_hardware_qcom_audio" revision="lineage-15.1-caf-8996" />
     
     <!-- LuisROM -->
-    <remove-project name="ResurrectionRemix/packages_apps_ResurrectionStats" />
+    <!-- <remove-project name="ResurrectionRemix/packages_apps_ResurrectionStats" /> -->
 	
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
