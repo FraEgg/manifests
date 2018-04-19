@@ -9,6 +9,8 @@
     <!-- <project name="LineageOS/android_external_one-true-awk" path="external/one-true-awk" remote="github" /> -->
 
     <!-- LuisROM -->
+    <remove-project name="ResurrectionRemix/packages_apps_ResurrectionStats" />
+	
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
 
