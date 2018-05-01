@@ -13,13 +13,53 @@
     <!-- <project path="hardware/qcom/audio-caf/msm8996" name="FraEgg/android_hardware_qcom_audio_xiaomi.bak" revision="lineage-15.1-caf-8996" /> -->
     	
     <!-- Custom -->
+    <manifest>
+
+    <!-- Xiaomi -->
+    <project name="FraEgg/android_device_xiaomi_santoni" path="device/xiaomi/santoni" revision="oreo-luis" />
+    <project name="FraEgg/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" revision="oreo-luis-ck" />
+    <project name="FraEgg/android_vendor_xiaomi_santoni" path="vendor/xiaomi" revision="oreo-luis" />
+    <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" />
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1"/>
+    <!-- <project name="LineageOS/android_external_one-true-awk" path="external/one-true-awk" remote="github" /> -->
+
     <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" /> -->
-    <project path="hardware/qcom/audio-caf/msm8996" name="FraEgg/hardware_qcom_audio_xiaomi" revision="oreo-8996" />	
-    <!-- <remove-project name="LineageOS/android_hardware_qcom_display" /> -->
+    <!-- <project path="hardware/qcom/audio/default" name="FraEgg/android_hardware_qcom_audio_xiaomi.bak" /> -->
+    <!-- <project path="hardware/qcom/audio-caf/msm8996" name="FraEgg/android_hardware_qcom_audio_xiaomi.bak" revision="lineage-15.1-caf-8996" /> -->
+
+    <!-- Custom -->
+    <remove-project name="LineageOS/android_hardware_qcom_audio" />
+    <project path="hardware/qcom/audio/default" name="FraEgg/android_hardware_qcom_audio" revision="lineage-15.1" />
+    <project path="hardware/qcom/audio-caf/msm8996" name="FraEgg/hardware_qcom_audio_xiaomi" revision="oreo-8996" />
+    <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project path="hardware/qcom/display-caf/msm8996" name="FraEgg/hardware_qcom_display_xiaomi" revision="oreo-8996" />
-    <!-- <remove-project name="LineageOS/android_hardware_qcom_media" /> -->
-    <project path="hardware/qcom/media" name="FraEgg/hardware_qcom_media_xiaomi" revision="oreo-8996" />	
-    -->
+    <remove-project name="LineageOS/android_hardware_qcom_media" />
+    <project path="hardware/qcom/media" name="FraEgg/hardware_qcom_media_xiaomi" revision="oreo-8996" />
+
+    <!-- LuisROM -->
+    <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
+    <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
+
+    <remove-project name="ResurrectionRemix/android_frameworks_base" />
+    <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
+
+    <remove-project name="LineageOS/android_frameworks_av" />
+    <project name="FraEgg/frameworks_av" path="frameworks/av" revision="oreo" />
+
+    <remove-project name="frameworks_native" />
+    <project path="frameworks/native" name="FraEgg/frameworks_native" revision="oreo" />
+
+    <remove-project name="packages_apps_LineageParts" />
+    <project name="FraEgg/packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="oreo" />
+
+    <remove-project name="ResurrectionRemix/Resurrection_packages_apps_Settings" />
+    <project name="FraEgg/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="oreo" /> 
+
+    <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" />
+
+    <project path="prebuilts/gcc/linux-x86/aarch64/gcc-prebuilts-4.9-kernel" name="FraEgg/aarch64-linux-android-4.9-kernel" remote="github" revision="master" />
+
+</manifest>
 	
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
