@@ -1,9 +1,9 @@
 <manifest>
 
     <!-- Xiaomi -->
-    <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/mido" revision="oreo-luis-rr-el" />
+    <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/mido" revision="oreo-luis-rr" />
     <project name="FraEgg/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" revision="oreo-luis-mr2" />
-    <project name="FraEgg/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="oreo-luis-el" />
+    <project name="FraEgg/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="oreo-luis" />
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" />
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1"/>
     <!-- <project name="LineageOS/android_external_one-true-awk" path="external/one-true-awk" remote="github" /> -->
