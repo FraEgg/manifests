@@ -8,13 +8,13 @@
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1"/>
     <!-- <project name="LineageOS/android_external_one-true-awk" path="external/one-true-awk" remote="github" /> -->
     
-    <!-- 
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom/audio/default" name="FraEgg/android_hardware_qcom_audio_xiaomi" />
-    <project path="hardware/qcom/audio-caf/msm8996" name="FraEgg/android_hardware_qcom_audio" revision="lineage-15.1-caf-8996" />
-    -->
+    <project path="hardware/qcom/audio/default" name="FraEgg/android_hardware_qcom_audio_xiaomi.bak" />
+    <project path="hardware/qcom/audio-caf/msm8996" name="FraEgg/hardware_qcom_audio_xiaomi" revision="oreo-8996" />
+    <!-- <project path="hardware/qcom/audio-caf/msm8996" name="FraEgg/android_hardware_qcom_audio_xiaomi.bak" revision="lineage-15.1-caf-8996" /> -->
     
     <!-- Custom -->
+    <!--
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
     <project path="hardware/qcom/audio-caf/msm8996" name="FraEgg/hardware_qcom_audio_xiaomi" revision="oreo-8996" />
 	
@@ -23,6 +23,7 @@
 	
     <remove-project name="LineageOS/android_hardware_qcom_media" />
     <project path="hardware/qcom/media" name="FraEgg/hardware_qcom_media_xiaomi" revision="oreo-8996" />	
+    -->
 	
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
