@@ -1,7 +1,7 @@
 <manifest>
 
     <!-- Xiaomi -->
-    <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/mido" revision="oreo-luis-rr" />
+    <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/mido" revision="oreo-luis-rr-el" />
     <project name="FraEgg/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" revision="oreo-luis-mr2" />
     <project name="FraEgg/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="oreo-luis" />
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" />
@@ -11,7 +11,7 @@
     <!-- Custom -->
     <!-- Media Stuff -->
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <project path="hardware/qcom/audio/default" name="FraEgg/android_hardware_qcom_audio" revision="lineage-15.1" />
+    <!-- <project path="hardware/qcom/audio/default" name="FraEgg/android_hardware_qcom_audio" revision="lineage-15.1" /> -->
     <project path="hardware/qcom/audio-caf/msm8996" name="FraEgg/hardware_qcom_audio_xiaomi" revision="oreo-8996" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project path="hardware/qcom/display-caf/msm8996" name="FraEgg/hardware_qcom_display_xiaomi" revision="oreo-8996" />
@@ -23,28 +23,28 @@
     <project path="system/bt" name="FraEgg/android_system_bt_omnirom" revision="android-8.1" />
     <remove-project name="LineageOS/android_hardware_qcom_bt" />
     <project path="hardware/qcom/bt" name="FraEgg/android_hardware_qcom_bt_omnirom" revision="android-8.1" />
-	
+
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
 
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
     <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
-    
+
     <remove-project name="LineageOS/android_frameworks_av" />
     <project name="FraEgg/frameworks_av" path="frameworks/av" revision="oreo" />
 
     <remove-project name="frameworks_native" />
     <project path="frameworks/native" name="FraEgg/frameworks_native" revision="oreo" />
-    
+
     <remove-project name="packages_apps_LineageParts" />
     <project name="FraEgg/packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="oreo" />
 
     <remove-project name="ResurrectionRemix/Resurrection_packages_apps_Settings" />
-    <project name="FraEgg/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="oreo" />	
-	
+    <project name="FraEgg/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="oreo" /> 
+
     <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" />
-    
+
     <!-- <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" /> -->
     <!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="FraEgg/aarch64-linux-android-4.9" remote="github" revision="master" /> -->
 
