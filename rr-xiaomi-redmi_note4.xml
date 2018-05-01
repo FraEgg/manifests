@@ -17,9 +17,6 @@
     <project path="hardware/qcom/display-caf/msm8996" name="FraEgg/hardware_qcom_display_xiaomi" revision="oreo-8996" />
     <remove-project name="LineageOS/android_hardware_qcom_media" />
     <project path="hardware/qcom/media" name="FraEgg/hardware_qcom_media_xiaomi" revision="oreo-8996" />
-    
-    <!-- Remove Stuff -->
-    <remove-project name="LineageOS/android_hardware_qcom_power" />
 
     <!-- BT Stuff -->
     <remove-project name="LineageOS/android_system_bt" />
@@ -27,6 +24,9 @@
     <remove-project name="LineageOS/android_hardware_qcom_bt" />
     <project path="hardware/qcom/bt" name="FraEgg/android_hardware_qcom_bt_omnirom" revision="android-8.1" />
 
+    <!-- Remove Stuff -->
+    <remove-project name="LineageOS/android_hardware_qcom_power" />
+    
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
