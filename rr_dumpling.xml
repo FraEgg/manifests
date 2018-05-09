@@ -17,6 +17,12 @@
     <!-- LuisROM -->
     <!-- <remove-project name="packages_apps_ResurrectionStats" /> -->
     
+    <!-- BT Stuff -->
+    <remove-project name="LineageOS/android_system_bt" />
+    <project path="system/bt" name="FraEgg/android_system_bt_omnirom" revision="android-8.1" />
+    <remove-project name="LineageOS/android_hardware_qcom_bt" />
+    <project path="hardware/qcom/bt" name="FraEgg/android_hardware_qcom_bt_omnirom" revision="android-8.1" />
+    
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
     
