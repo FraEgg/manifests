@@ -1,8 +1,8 @@
 <manifest>
 
     <!-- Samsung Galaxy S5 (klte/snapdragon) -->
-    <project name="FraEgg/android_device_samsung_klte" path="device/samsung/klte" remote="github" revision="oreo" />
-    <project name="FraEgg/android_device_samsung_klte-common" path="device/samsung/klte-common" remote="github" revision="lineage-15.1" />
+    <project name="FraEgg/android_device_samsung_klte" path="device/samsung/klte" remote="github" revision="oreo-luis" />
+    <project name="FraEgg/android_device_samsung_klte-common" path="device/samsung/klte-common" remote="github" revision="oreo-luis" />
     <project name="FraEgg/android_kernel_samsung_msm8974" path="kernel/samsung/msm8973" remote="github" revision="oreo-luis" />
 
     <!-- General -->
