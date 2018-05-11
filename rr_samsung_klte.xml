@@ -1,1 +1,34 @@
+<manifest>
 
+    <!-- Samsung Galaxy S5 (klte/snapdragon) -->
+    <project name="FraEgg/android_device_samsung_klte" path="device/samsung/klte" remote="github" revision="oreo" />
+    <project name="FraEgg/android_device_samsung_klte-common" path="device/samsung/klte-common" remote="github" revision="lineage-15.1" />
+    <project name="FraEgg/android_kernel_samsung_msm8974" path="kernel/samsung/msm8973" remote="github" revision="oreo-luis" />
+
+    <!-- General -->
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+    <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+
+    <!-- Vendor -->
+    <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-15.1" />
+
+    <!-- LuisROM -->
+    <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
+    <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
+
+    <remove-project name="ResurrectionRemix/android_frameworks_base" />
+    <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
+
+    <remove-project name="LineageOS/android_frameworks_av" />
+    <project name="FraEgg/frameworks_av" path="frameworks/av" revision="oreo" />
+    
+    <remove-project name="frameworks_native" />
+    <project path="frameworks/native" name="FraEgg/frameworks_native" revision="oreo" />
+    
+    <remove-project name="packages_apps_LineageParts" />
+    <project name="FraEgg/packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="oreo" />
+
+    <remove-project name="ResurrectionRemix/Resurrection_packages_apps_Settings" />
+    <project name="FraEgg/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="oreo" />
+	
+</manifest>
