@@ -35,4 +35,6 @@
     <remove-project name="ResurrectionRemix/Resurrection_packages_apps_Settings" />
     <project name="FraEgg/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="oreo" />
 	
+    <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" />
+	
 </manifest>
