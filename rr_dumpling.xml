@@ -45,6 +45,10 @@
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="FraEgg/aarch64-linux-android-4.9" remote="github" revision="master" /> -->
     -->
     
+    <!-- Latest Wireguard -->
+    <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+    <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+    
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-opt-linux-android" name="FraEgg/aarch64-linux-android" remote="github" revision="opt-linaro-7.x" />
 
 </manifest>
