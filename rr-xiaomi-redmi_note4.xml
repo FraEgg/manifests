@@ -2,7 +2,7 @@
 
     <!-- Xiaomi -->
     <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/mido" revision="oreo-luis-ad" />
-    <project name="FraEgg/android_device_xiaomi_msm8953-common" path="device/xiaomi/msm8953-common" revision="oreo-luis-ad" />
+    <project name="FraEgg/android_device_xiaomi_msm8953-common" path="device/xiaomi/msm8953-common" revision="oreo-luis-ad-mr1" />
     <project name="FraEgg/android_kernel_xiaomi_msm8953-treble" path="kernel/xiaomi/msm8953" revision="treble" />
     <!-- <project name="Adesh15/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" revision="treble" /> -->
     <project name="FraEgg/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="oreo-luis-tm" />
