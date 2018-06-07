@@ -2,7 +2,6 @@
 
     <!-- Xiaomi -->
     <project name="FraEgg/android_device_xiaomi_santoni-treble" path="device/xiaomi/santoni" revision="oreo-luis" />
-    <!-- <project name="ryan-andri/android_kernel_santoni" path="kernel/xiaomi/msm8937" revision="AOSP/8.1-Treble" /> -->
     <project name="FraEgg/android_kernel_xiaomi_msm8937-treble" path="kernel/xiaomi/msm8937" revision="oreo-luis" />
     <project name="FraEgg/android_vendor_xiaomi_santoni-treble" path="vendor/xiaomi" revision="oreo-luis" />
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" />
