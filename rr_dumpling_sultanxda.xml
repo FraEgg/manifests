@@ -42,7 +42,7 @@
   <project name="FraEgg/android_packages_apps_Snap_sultanxda" path="packages/apps/Snap" revision="oneplus5t/cm-14.1-sultan" />
   <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" revision="cm-14.1-sultan" />
  
-  <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="nougat" />
+  <!-- <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="nougat" /> -->
   <project path="packages/apps/WeatherProviders" name="FraEgg/android_packages_apps_WeatherProviders_sultanxda" revision="cm-14.1" />
  
   <remove-project name="android_vendor_resurrection" />
