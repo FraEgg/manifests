@@ -54,7 +54,7 @@
     <remove-project name="android_packages_overlays_Resurrection" />
     <project name="FraEgg/android_packages_overlays_Resurrection" path="packages/overlays/Resurrection" remote="github" revision="oreo-luis" />
 
-    <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" />
+    <!-- <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" /> -->
 
     <project path="prebuilts/gcc/linux-x86/aarch64/gcc-prebuilts-4.9-kernel" name="FraEgg/aarch64-linux-android-4.9-kernel" remote="github" revision="master" />
 
