@@ -12,7 +12,7 @@
     <!-- <project name="LineageOS/android_external_one-true-awk" path="external/one-true-awk" remote="github" /> -->
     
     <!-- Vendor -->
-    <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
+    <project name="FraEgg/proprietary_vendor_oneplus-tm" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
 
     <!-- LuisROM -->
     <!-- <remove-project name="packages_apps_ResurrectionStats" /> -->
