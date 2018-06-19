@@ -22,6 +22,7 @@
     
     <!-- <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" /> -->
      
+    <!--
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
     <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
     
@@ -42,6 +43,7 @@
     
     <remove-project name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
     <project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="nvertigo/android_packages_apps_OpenWeatherMapProvider" revision="nlos-15.1" />
+    -->
     
     <!--
     <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" />
