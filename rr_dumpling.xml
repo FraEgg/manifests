@@ -15,7 +15,6 @@
     <project name="FraEgg/proprietary_vendor_oneplus-tm" path="vendor/oneplus" remote="github" revision="lineage-15.1" />
 
     <!-- LuisROM -->
-    <!-- <remove-project name="packages_apps_ResurrectionStats" /> -->
     
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
     <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" revision="oreo-luis" />
@@ -27,6 +26,9 @@
     
     <remove-project name="LineageOS/android_frameworks_av" />
     <project name="FraEgg/frameworks_av" path="frameworks/av" revision="oreo" />
+    
+    <remove-project name="packages_apps_LineageParts" />
+    <project name="FraEgg/packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="oreo" />
 
     <!--
     <remove-project name="frameworks_native" />
@@ -37,9 +39,6 @@
     
     <remove-project name="android_packages_overlays_Resurrection" />
     <project name="FraEgg/android_packages_overlays_Resurrection" path="packages/overlays/Resurrection" revision="oreo-luis" />
-
-    <remove-project name="packages_apps_LineageParts" />
-    <project name="FraEgg/packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="oreo" />
     
     <remove-project name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
     <project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="nvertigo/android_packages_apps_OpenWeatherMapProvider" revision="nlos-15.1" />
