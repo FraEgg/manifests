@@ -34,8 +34,10 @@
     <remove-project name="ResurrectionRemix/android_packages_overlays_Resurrection" />
     <project name="FraEgg/android_packages_overlays_Resurrection" path="packages/overlays/Resurrection" revision="oreo-luis" />
     
+    <!--
     <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="FraEgg/aarch64-linux-android-4.9" remote="github" revision="master" />
+    -->
     
     <!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-opt-linux-android" name="FraEgg/aarch64-linux-android" remote="github" revision="opt-linaro-7.x" /> -->
 
