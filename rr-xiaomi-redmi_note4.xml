@@ -1,7 +1,7 @@
 <manifest>
 
     <!-- Xiaomi -->
-    <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/mido" revision="oreo-luis-ad-test" />
+    <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/mido" revision="oreo-luis-los" />
     <project name="FraEgg/android_device_xiaomi_msm8953-common" path="device/xiaomi/msm8953-common" revision="oreo-luis-los" />
     <project name="FraEgg/android_kernel_xiaomi_msm8953-treble" revision="treble-fc" path="kernel/xiaomi/msm8953" />
     <!-- <project name="Adesh15/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" revision="treble" /> -->
