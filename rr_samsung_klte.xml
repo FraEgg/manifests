@@ -25,7 +25,7 @@
     <!-- <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" /> -->
 
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
-    <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
+    <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo" />
 
     <remove-project name="LineageOS/android_frameworks_av" />
     <project name="FraEgg/frameworks_av" path="frameworks/av" revision="oreo" />
