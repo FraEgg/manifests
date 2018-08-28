@@ -1,8 +1,8 @@
 <manifest>
 
     <!-- Samsung Galaxy Tab 3 (gts3llte/snapdragon) -->
-    <project name="FraEgg/android_device_samsung_gts3llte" path="device/samsung/gts3llte" remote="github" revision="oreo-luis" />
-    <project name="FraEgg/android_kernel_samsung_msm8996" path="kernel/samsung/msm8996" remote="github" revision="oreo-luis" />
+    <project name="FraEgg/android_device_samsung_gts3llte" path="device/samsung/gts3llte" remote="github" revision="oreo-luis-treble" />
+    <project name="FraEgg/android_kernel_samsung_msm8996" path="kernel/samsung/msm8996" remote="github" revision="oreo-luis-treble" />
 	
     <!--<project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="lineage-15.1" /> -->
 
@@ -17,7 +17,7 @@
     <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
     <!-- Vendor -->
-    <project name="FraEgg/android_vendor_samsung_gts3llte" path="vendor/samsung/gts3llte" remote="github" revision="lineage-15.1" />
+    <project name="FraEgg/android_vendor_samsung_gts3llte" path="vendor/samsung/gts3llte" remote="github" revision="lineage-15.1-treble" />
 
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
