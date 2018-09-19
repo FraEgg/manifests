@@ -26,7 +26,7 @@
     <project name="FraEgg/packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="oreo" />
 
     <remove-project name="ResurrectionRemix/frameworks_native" />
-    <project path="frameworks/native" name="FraEgg/frameworks_native" revision="oreo" />
+    <project path="frameworks/native" name="FraEgg/frameworks_native" revision="oreo-treble" />
 
     <remove-project name="ResurrectionRemix/Resurrection_packages_apps_Settings" />
     <project name="FraEgg/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="oreo" />
