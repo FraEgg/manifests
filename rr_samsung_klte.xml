@@ -42,8 +42,8 @@
     <remove-project name="ResurrectionRemix/android_packages_overlays_Resurrection" />
     <project name="FraEgg/android_packages_overlays_Resurrection" path="packages/overlays/Resurrection" revision="oreo-luis" />
 	
-    <!-- Wireguard -->
+    <!-- Wireguard
     <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
     <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
-	
+    -->
 </manifest>
