@@ -7,7 +7,7 @@
     <project name="FraEgg/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" revision="lineage-15.1" />
     <project name="FraEgg/android_kernel_xiaomi_msm8953" revision="oreo-luis-fk" path="kernel/xiaomi/msm8953" />
     <project name="FraEgg/android_kernel_xiaomi_sdm845" revision="oreo-luis" path="kernel/xiaomi/sdm845" />
-    <project name="FraEgg/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="lineage-15.1" />
+    <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="lineage-15.1" />
     <!-- <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" /> -->
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1"/>
 
@@ -20,9 +20,10 @@
     <remove-project name="ResurrectionRemix/android_frameworks_base" />
     <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
 
+    <!--
     <remove-project name="LineageOS/android_frameworks_av" />
     <project name="FraEgg/frameworks_av" path="frameworks/av" revision="oreo" />
-
+    
     <remove-project name="ResurrectionRemix/packages_apps_LineageParts" />
     <project name="FraEgg/packages_apps_LineageParts" path="packages/apps/LineageParts" remote="github" revision="oreo" />
 
@@ -34,6 +35,7 @@
 
     <remove-project name="ResurrectionRemix/android_packages_overlays_Resurrection" />
     <project name="FraEgg/android_packages_overlays_Resurrection" path="packages/overlays/Resurrection" revision="oreo-luis" />
+    -->
     
     <!--
     <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" />
