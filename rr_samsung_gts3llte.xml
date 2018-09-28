@@ -3,17 +3,9 @@
     <!-- Samsung Galaxy Tab 3 (gts3llte/snapdragon) -->
     <project name="FraEgg/android_device_samsung_gts3llte" path="device/samsung/gts3llte" remote="github" revision="oreo-luis" />
     <project name="FraEgg/android_kernel_samsung_msm8996" path="kernel/samsung/msm8996" remote="github" revision="oreo-luis" />
-	
-    <!--<project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="lineage-15.1" /> -->
 
     <!-- General -->
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
-    
-    <!--
-    <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
-    <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-15.1" />
-    -->
-
     <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
     <!-- Vendor -->
@@ -25,11 +17,9 @@
 
     <!-- <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" /> -->
 
-    <!-- 
-     <remove-project name="ResurrectionRemix/android_frameworks_base" />
+    <remove-project name="ResurrectionRemix/android_frameworks_base" />
     <project path="frameworks/base" name="FraEgg/android_frameworks_base" revision="oreo-luis" />
-    -->
-
+    
     <remove-project name="LineageOS/android_frameworks_av" />
     <project name="FraEgg/frameworks_av" path="frameworks/av" revision="oreo" />
 
@@ -39,15 +29,13 @@
     <remove-project name="ResurrectionRemix/frameworks_native" />
     <project path="frameworks/native" name="FraEgg/frameworks_native" revision="oreo" />
 
-    <!--
     <remove-project name="ResurrectionRemix/Resurrection_packages_apps_Settings" />
     <project name="FraEgg/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="oreo-luis" />
-    -->
-
+    
     <remove-project name="ResurrectionRemix/android_packages_overlays_Resurrection" />
     <project name="FraEgg/android_packages_overlays_Resurrection" path="packages/overlays/Resurrection" revision="oreo" />
 	
     <project path="prebuilts/gcc/linux-x86/aarch64/gcc-prebuilts-4.9-kernel" name="FraEgg/aarch64-linux-android-4.9-kernel" remote="github" revision="master" />
-	<!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-opt-linux-android" name="FraEgg/aarch64-linux-android" remote="github" revision="opt-linaro-7.x" /> -->
+    <!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-opt-linux-android" name="FraEgg/aarch64-linux-android" remote="github" revision="opt-linaro-7.x" /> -->
 
 </manifest>
