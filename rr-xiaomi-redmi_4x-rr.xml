@@ -2,6 +2,7 @@
 
     <!-- Xiaomi -->
     <project name="FraEgg/android_device_xiaomi_santoni_ht" path="device/xiaomi/santoni" revision="oreo-luis" />
+    <project name="FraEgg/android_device_xiaomi_msm8937-common_ht" path="device/xiaomi/msm8937-common" revision="lineage-15.1" />
     <project name="FraEgg/android_kernel_xiaomi_msm8937_ht" path="kernel/xiaomi/msm8937" revision="lineage-15.1" />
     <project name="FraEgg/proprietary_vendor_xiaomi_ht" path="vendor/xiaomi" revision="lineage-15.1" />
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" />
