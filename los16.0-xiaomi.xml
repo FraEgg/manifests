@@ -3,9 +3,9 @@
     <!-- Xiaomi -->
     <project name="FraEgg/android_device_xiaomi_polaris" path="device/xiaomi/polaris" revision="lineage-16.0" />
     <project name="FraEgg/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" revision="lineage-16.0" />
-    <project name="FraEgg/android_kernel_xiaomi_sdm845_LuisKERNEL" revision="lineage-16.0" path="kernel/xiaomi/sdm845" />
+    <project name="FraEgg/android_kernel_xiaomi_sdm845_LuisKERNEL" revision="oreo-luis" path="kernel/xiaomi/sdm845" />
     <project name="FraEgg/proprietary_vendor_xiaomi" path="vendor/xiaomi" revision="lineage-16.0" />
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1"/>
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-16.0"/>
 
     <!-- Custom -->
     <!-- LuisROM -->
