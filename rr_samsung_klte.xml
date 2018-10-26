@@ -15,7 +15,7 @@
     <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
     <!-- Vendor -->
-    <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-15.1" />
+    <project name="FraEgg/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-15.1" />
     
     <!-- LuisROM -->
     <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
