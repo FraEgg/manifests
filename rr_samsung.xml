@@ -50,6 +50,10 @@
   <remove-project name="android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base" remote="github" revision="nougat-luis" />
   
+  <!-- Fix DownloadProvider issue 03.11.2018 -->
+  <remove-project name="android_packages_providers_DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="FraEgg/android_packages_providers_DownloadProvider" remote="github" revision="cm-14.1" />
+  
   <!-- Wireguard -->
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
   <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
