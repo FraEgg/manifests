@@ -3,7 +3,7 @@
     <!-- Xiaomi -->
     <project name="FraEgg/android_device_xiaomi_polaris" path="device/xiaomi/polaris" revision="pie-luis-lr" remote="github" />
     <project name="FraEgg/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" revision="lineage-16.0" remote="github" />
-    <project name="FraEgg/android_kernel_xiaomi_sdm845_LuisKERNEL" revision="luis" path="kernel/xiaomi/sdm845" remote="github" />
+    <project name="FraEgg/android_kernel_xiaomi_sdm845_LuisKERNEL" revision="pie-luis-lr" path="kernel/xiaomi/sdm845" remote="github" />
 
     <!-- LineageOS -->
     <!-- <project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc" revision="lineage-16.0" remote="github" /> -->
