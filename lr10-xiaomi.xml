@@ -27,7 +27,7 @@
     
     <!-- Custom -->
     <remove-project name="android_packages_apps_Camera2" />
-    <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" revision="lineage-16.0" />
+    <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" revision="lineage-16.0" remote="github" />
     
     <!-- LiquidRemix - LuisROM -->
     <remove-project name="android_vendor_liquid" />
