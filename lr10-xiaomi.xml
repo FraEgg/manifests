@@ -26,6 +26,8 @@
     <project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/hidlimpl" revision="lineage-16.0" remote="github" />
     
     <!-- Custom -->
+    <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" revision="lineage-16.0" />
+    
     <!-- LiquidRemix - LuisROM -->
     <remove-project name="android_vendor_liquid" />
     <project path="vendor/liquid" name="FraEgg/android_vendor_liquid" revision="pie" remote="github" />
