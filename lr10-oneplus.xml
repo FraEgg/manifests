@@ -8,6 +8,7 @@
     <project name="LiquidRemix-Devices/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="pie" />
     <project name="LiquidRemix-Devices/vendor_oneplus" path="vendor/oneplus" remote="github" revision="pie" />
     <project name="LiquidRemix-Devices/android_device_oppo_common" path="device/oppo/common" remote="github" revision="pie" />
+    <project name="LiquidRemix-Devices/android_device_qcom_common" path="device/qcom/common" remote="github" revision="pie" />
  
     <!-- LineageOS -->
     <!--
