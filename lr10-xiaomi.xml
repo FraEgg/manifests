@@ -24,6 +24,8 @@
 
     <remove-project name="android_vendor_nxp_opensource_hidlimpl" />
     <project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/hidlimpl" revision="lineage-16.0" remote="github" />
+
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-16.0" remote="github" />
     
     <!-- Custom -->
     <!--
