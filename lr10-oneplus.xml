@@ -44,9 +44,15 @@
     <remove-project name="android_packages_apps_Settings" />
     <project path="packages/apps/Settings" name="FraEgg/android_packages_apps_Settings_liquid" revision="pie" remote="github" />
     
+    <remove-project name="android_hardware_qcom_audio" />
+    <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-16.0-caf-8996" />
+    
     <remove-project name="android_hardware_qcom_display" />
     <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-16.0-caf-8996" />
-       
+    
+    <remove-project name="android_hardware_qcom_media" />
+    <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-16.0-caf-8996" />
+    
     <!--
     <remove-project name="android_hardware_interfaces" />
     <project path="hardware/interfaces" name="FraEgg/android_hardware_interfaces" revision="pie" remote="github" />
