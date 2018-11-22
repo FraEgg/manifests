@@ -7,6 +7,7 @@
     <project name="FraEgg/proprietary_vendor_xiaomi_polaris" revision="pie" path="vendor/xiaomi/polaris" remote="github" />
 
     <!-- LineageOS -->
+    <!--
     <remove-project name="android_vendor_nxp_interfaces_opensource_nfc" />
     <project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc" revision="lineage-16.0" remote="github" />
 
@@ -24,7 +25,7 @@
 
     <remove-project name="android_vendor_nxp_opensource_hidlimpl" />
     <project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/hidlimpl" revision="lineage-16.0" remote="github" />
-
+    -->
     <!-- Custom -->
     <!--
     <remove-project name="android_packages_apps_Camera2" />
