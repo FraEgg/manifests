@@ -36,10 +36,8 @@
     <project name="FraEgg/android_packages_overlays_Resurrection" path="packages/overlays/Resurrection" revision="oreo" />
 
     <!-- Build with Wireguard -->	
-    <!--
     <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
     <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
-    -->
 	
     <project path="prebuilts/gcc/linux-x86/aarch64/gcc-prebuilts-4.9-kernel" name="FraEgg/aarch64-linux-android-4.9-kernel" remote="github" revision="master" />
     <!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-opt-linux-android" name="FraEgg/aarch64-linux-android" remote="github" revision="opt-linaro-7.x" /> -->
