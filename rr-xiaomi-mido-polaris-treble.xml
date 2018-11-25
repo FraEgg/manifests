@@ -36,9 +36,11 @@
     <project name="FraEgg/android_packages_overlays_Resurrection" path="packages/overlays/Resurrection" revision="oreo-luis" />
 
     <!-- Build with Wireguard -->	
+    <!--
     <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
     <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
-    
+    -->    
+
     <!--
     <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" />
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="FraEgg/aarch64-linux-android-4.9" remote="github" revision="master" />
