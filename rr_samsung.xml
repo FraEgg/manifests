@@ -55,8 +55,10 @@
   <project path="packages/providers/DownloadProvider" name="FraEgg/android_packages_providers_DownloadProvider" remote="github" revision="cm-14.1" />
   
   <!-- Wireguard -->
+  <!--
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
   <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+  -->
   
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" />
