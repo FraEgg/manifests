@@ -28,4 +28,7 @@
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
   <project path="vendor/lineage" name="FraEgg/android_vendor_crdroid" remote="github" revision="9.0-luis" />
 
+  <remove-project name="crdroidandroid/android_vendor_addons" />
+  <project path="vendor/addons" name="FraEgg/android_vendor_addons_cr" remote="github" revision="9.0-luis" />
+
 </manifest>
