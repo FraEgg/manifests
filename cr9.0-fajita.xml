@@ -9,7 +9,7 @@
   <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="9.0" />
 
   <!-- Kernel -->
-  <project name="LineageOS/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="lineage-16.0" />
+  <project name="ArrowOS-Devices/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="arrow-9.x" />
 
   <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_oneplus_fajita" path="vendor/oneplus" remote="github" revision="lineage-16.0" />
