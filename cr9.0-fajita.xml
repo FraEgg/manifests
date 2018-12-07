@@ -37,7 +37,9 @@
   <project path="vendor/addons" name="FraEgg/android_vendor_addons_cr" remote="github" revision="9.0-luis" />
   
   <!-- GApps -->
+  <!--
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
+  -->
   
   <!-- Build with Wireguard -->	
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
