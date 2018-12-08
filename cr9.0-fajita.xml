@@ -25,7 +25,7 @@
 
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
-  <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="9.0-luis" />
+  <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="9.0-luis-op6t" />
 
   <remove-project name="crdroidandroid/android_system_core" />
   <project path="system/core" name="FraEgg/android_system_core_cr" remote="github" revision="9.0-luis" />
