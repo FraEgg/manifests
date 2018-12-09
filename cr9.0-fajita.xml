@@ -41,6 +41,12 @@
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   -->
   
+  <!-- TWRP Recovery -->
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="HelllGuest/android_bootable_recovery" remote="github" revision="android-9.0" />
+  <!-- <project name="HelllGuest/twrp-fajita" path="device/oneplus/fajita" remote="github" revision="android-9.0" /> -->
+  <project name="TeamWin/android_external_busybox" path="external/busybox" remote="github" revision="android-9.0" />
+
   <!-- Build with Wireguard -->	
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
   <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
