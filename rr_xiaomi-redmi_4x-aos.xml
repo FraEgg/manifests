@@ -2,8 +2,7 @@
 
     <!-- Xiaomi -->
     <project name="FraEgg/android_device_xiaomi_santoni_aos" path="device/xiaomi/santoni" revision="oreo-luis-aos" />
-    <!-- <project name="FraEgg/android_kernel_xiaomi_msm8937_aos" path="kernel/xiaomi/msm8937" revision="oreo-luis-aos" /> -->
-    <project name="FraEgg/android_kernel_xiaomi_msm8937_ht" path="kernel/xiaomi/msm8937" revision="oreo-luis" />
+    <project name="FraEgg/android_kernel_xiaomi_msm8937_aos" path="kernel/xiaomi/msm8937" revision="oreo-luis-aos" />
     <!-- <project name="FraEgg/android_device_xiaomi_msm8937-common_ht" path="device/xiaomi/msm8937-common" revision="oreo-luis" /> -->
     <project name="FraEgg/android_vendor_xiaomi_santoni_aos" path="vendor/xiaomi" revision="oreo-luis-aos" />
     <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1" />
@@ -39,8 +38,5 @@
     <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
     <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
     -->
-    
-    <!-- <project path="packages/apps/luis" name="FraEgg/android_packages_apps_luis" revision="oreo" /> -->
-    <!-- <project path="prebuilts/gcc/linux-x86/aarch64/gcc-prebuilts-4.9-kernel" name="FraEgg/aarch64-linux-android-4.9-kernel" remote="github" revision="master" /> -->
-
+   
 </manifest>
