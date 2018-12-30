@@ -24,7 +24,7 @@
   <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" remote="github" revision="lineage-15.1" />
   <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" remote="github" revision="lineage-15.1" />
   -->
-
+  <!-- 
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="9.0-luis-op6t" />
@@ -37,6 +37,13 @@
 
   <remove-project name="crdroidandroid/android_vendor_addons" />
   <project path="vendor/addons" name="FraEgg/android_vendor_addons_cr" remote="github" revision="9.0-luis" />
+  
+  <!-- LOS Tempfixes -->
+  <remove-project name="LineageOS/android_system_vold" />
+  <project path="system/vold" name="FraEgg/android_system_vold" remote="github" revision="lineage-16.0" />
+  
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
+  <project path="vendor/qcom/opensource/cryptfs" name="FraEgg/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-16.0" />
   
   <!-- GApps -->
   <!--
