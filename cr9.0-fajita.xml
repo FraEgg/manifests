@@ -23,7 +23,7 @@
   
   <!-- LOS Tempfixes -->
   <remove-project name="LineageOS/android_system_vold" />
-  <project path="system/vold" name="FraEgg/android_system_vold" remote="github" revision="lineage-16.0" />
+  <project path="system/vold" name="crdroidandroid/android_system_vold" remote="github" revision="lineage-16.0" />
   
   <remove-project name="crdroidandroid/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/cryptfs" name="FraEgg/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-16.0" />
