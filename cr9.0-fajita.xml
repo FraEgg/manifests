@@ -22,10 +22,9 @@
   <project name="FraEgg/aarch64-linux-gnu-8.2.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="github" revision="master" />
   
   <!-- LOS Tempfixes -->
-  <!--
   <remove-project name="LineageOS/android_system_vold" />
   <project path="system/vold" name="crdroidandroid/android_system_vold" remote="github" revision="9.0" />
-  
+  <!--
   <remove-project name="crdroidandroid/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/cryptfs" name="FraEgg/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-16.0" />
   -->
