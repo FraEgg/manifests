@@ -20,7 +20,7 @@
   <!-- <project name="crdroidandroid/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="9.0" /> -->
 
    <!-- Additional -->
-   <project name="FraEgg/aarch64-linux-gnu-8.2.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="github" revision="master" />
+   <!-- <project name="FraEgg/aarch64-linux-gnu-8.2.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="github" revision="master" /> -->
   
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
