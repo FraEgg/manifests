@@ -19,8 +19,12 @@
   <!-- <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="pie-luis-cr9.0-ims2" /> -->
   <!-- <project name="crdroidandroid/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="9.0" /> -->
 
-   <!-- Additional -->
-   <!-- <project name="FraEgg/aarch64-linux-gnu-8.2.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="github" revision="master" /> -->
+  <!-- Additional -->
+  <!-- <project name="FraEgg/aarch64-linux-gnu-8.2.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="github" revision="master" /> -->
+  
+  <!-- Temp fixes -->
+  <remove-project name="LineageOS/android_hardware_qcom_audio" revision="lineage-16.0-caf-8998" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="FraEgg/android_hardware_qcom_audio" remote="github" revision="lineage-16.0-caf-8998" />
   
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
