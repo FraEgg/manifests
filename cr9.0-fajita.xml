@@ -16,7 +16,7 @@
   <project name="FraEgg/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="pie-luis-a9" />
 
   <!-- Vendor -->
-  <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="pie-luis-cr9.0" />
+  <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-16.0" />
 
   <!-- Additional -->
   <!-- <project name="FraEgg/aarch64-linux-gnu-8.2.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="github" revision="master" /> -->
