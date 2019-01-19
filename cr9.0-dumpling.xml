@@ -25,6 +25,7 @@
   <!-- Temp fixes -->
   <remove-project name="LineageOS/android_hardware_qcom_audio" revision="lineage-16.0-caf-8998" />
   <project path="hardware/qcom/audio-caf/msm8998" name="FraEgg/android_hardware_qcom_audio" remote="github" revision="lineage-16.0-caf-8998" />
+  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="github" groups="qcom,qcom_audio,pdk-qcom" />
   
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
