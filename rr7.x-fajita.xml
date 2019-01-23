@@ -28,6 +28,9 @@
   <remove-project name="android_vendor_resurrection" />
   <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" remote="github" revision="pie-luis-rr" />
   
+  <remove-project name="android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater" remote="github" revision="pie-luis-rr" />
+  
   <!-- Build with Wireguard -->
   <!--
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
