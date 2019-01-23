@@ -24,16 +24,10 @@
   <!-- Luis ROM Changes -->
   <remove-project name="android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base" remote="github" revision="pie-luis" />
-  <!--
-  <remove-project name="crdroidandroid/android_system_core" />
-  <project path="system/core" name="FraEgg/android_system_core_cr" remote="github" revision="9.0-luis" />
-
-  <remove-project name="crdroidandroid/android_vendor_crdroid" />
-  <project path="vendor/lineage" name="FraEgg/android_vendor_crdroid" remote="github" revision="9.0-luis" />
-
-  <remove-project name="crdroidandroid/android_vendor_addons" />
-  <project path="vendor/addons" name="FraEgg/android_vendor_addons_cr" remote="github" revision="9.0-luis" />
-  -->
+  
+  <remove-project name="android_vendor_resurrection" />
+  <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" remote="github" revision="pie-luis-rr" />
+  
   <!-- Build with Wireguard -->	
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
   <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
