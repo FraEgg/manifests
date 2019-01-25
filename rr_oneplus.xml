@@ -5,7 +5,7 @@
     <project name="FraEgg/android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="oreo-luis-los" />
     <project name="FraEgg/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="oreo-luis-los" />
     <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="oreo-luis" />
-    <project name="FraEgg/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="oreo-luis-xos-8.1" />
+    <project name="FraEgg/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="oreo-luis-fc" />
     <project name="FraEgg/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="oreo-luis" />
 	
     <!-- General -->
