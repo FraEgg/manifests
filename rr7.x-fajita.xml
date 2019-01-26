@@ -23,10 +23,10 @@
 
   <!-- Luis ROM Changes -->
   <remove-project name="android_frameworks_base" />
-  <project path="frameworks/base" name="FraEgg/android_frameworks_base" remote="github" revision="pie-luis-rr" />
+  <project path="frameworks/base" name="FraEgg/android_frameworks_base" remote="github" revision="pie-luis-op6t" />
   
   <remove-project name="android_vendor_resurrection" />
-  <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" remote="github" revision="pie-luis-rr-op6t" />
+  <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" remote="github" revision="pie-luis-rr" />
   
   <remove-project name="android_packages_apps_Updater" />
   <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater" remote="github" revision="pie-luis-rr" />
