@@ -7,7 +7,7 @@
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 
   <!-- Kernel -->
-  <project name="FraEgg/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="pie-luis-los" /> 
+  <project name="FraEgg/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="pie-luis-rr" /> 
 
   <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-16.0" />
