@@ -31,7 +31,10 @@
 
     <remove-project name="ResurrectionRemix/Resurrection_packages_apps_Settings" />
     <project name="FraEgg/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="oreo-luis" />
-    
+	
+    <remove-project name="android_build" />
+    <project name="FraEgg/android_build" path="build" remote="github" revision="oreo" />
+
     <remove-project name="ResurrectionRemix/android_packages_overlays_Resurrection" />
     <project name="FraEgg/android_packages_overlays_Resurrection" path="packages/overlays/Resurrection" revision="oreo" />
 
