@@ -2,8 +2,7 @@
 <manifest>
 
   <!-- Device tree -->
-  <project name="FraEgg/android_device_xiaomi_mido_ad" path="device/xiaomi/mido" remote="github" revision="pie-luis-rr" />
-  <!-- <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-16.0"/> -->
+  <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="pie-luis-rr" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   
   <!-- Kernel -->
