@@ -32,7 +32,7 @@
   <remove-project name="android_packages_apps_Updater" />
   <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater" remote="github" revision="pie-luis-rr" />
   
-  <project name="FraEgg/packages_apps_ResurrectionStats" path="packages/apps/ResurrectionStats" remote="github" revision="pie-luis" />
+  <!-- <project name="FraEgg/packages_apps_ResurrectionStats" path="packages/apps/ResurrectionStats" remote="github" revision="pie-luis" /> -->
   
   <!-- Build with Wireguard -->	
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
