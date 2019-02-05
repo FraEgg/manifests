@@ -2,14 +2,14 @@
 <manifest>
 
   <!-- Device tree -->
-  <project name="FraEgg/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="pie-luis-rr" />
+  <project name="FraEgg/android_device_xiaomi_mido_ze" path="device/xiaomi/mido" remote="github" revision="pie-luis" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   
   <!-- Kernel -->
-  <project name="FraEgg/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="pie-luis-ah" /> 
+  <project name="FraEgg/android_kernel_xiaomi_msm8953_ze" path="kernel/xiaomi/msm8953" remote="github" revision="pie-luis" /> 
 
   <!-- Vendor -->
-  <project name="FraEgg/proprietary_vendor_xiaomi_mido" path="vendor/xiaomi" remote="github" revision="lineage-16.0" />
+  <project name="FraEgg/proprietary_vendor_xiaomi_mido_ze" path="vendor/xiaomi" remote="github" revision="lineage-16.0" />
 
   <!-- Additional -->
   <!-- <project name="FraEgg/aarch64-linux-gnu-8.2.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="github" revision="master" /> -->
