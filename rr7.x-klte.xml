@@ -27,11 +27,10 @@
   <remove-project name="android_packages_apps_Updater" />
   <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater" remote="github" revision="pie-luis-rr" />
   
-  <!--
-  <remove-project name="Resurrection_packages_apps_Settings" />
-  <project name="FraEgg/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="pie-luis" />
-  -->
-  
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <project path="hardware/qcom/audio/default" name="haggertk/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="haggertk/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8974" />
+
   <!-- <project name="FraEgg/packages_apps_ResurrectionStats" path="packages/apps/ResurrectionStats" remote="github" revision="pie-luis" /> -->
   
   <!-- Build with Wireguard -->	
