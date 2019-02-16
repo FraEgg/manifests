@@ -31,11 +31,6 @@
   <remove-project name="android_packages_apps_Updater" />
   <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater" remote="github" revision="pie-luis-rr" />
 
-  <!--
-  <remove-project name="Resurrection_packages_apps_Settings" />
-  <project name="FraEgg/Resurrection_packages_apps_Settings" path="packages/apps/Settings" revision="pie-luis" />
-  -->
-
   <!-- <project name="FraEgg/packages_apps_ResurrectionStats" path="packages/apps/ResurrectionStats" remote="github" revision="pie-luis" /> -->
 
   <!-- Build with Wireguard -->
