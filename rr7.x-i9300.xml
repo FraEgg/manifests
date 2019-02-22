@@ -1,7 +1,7 @@
 <manifest>
 
   <!-- Samsung Galaxy S3 (I9300/smdk) -->
-  <project path="kernel/samsung/smdk4412" name="ChronoMonochrome/android_kernel_samsung_smdk4412" revision="lineage-16.0" />
+  <project path="kernel/samsung/smdk4412" name="LineageOS/android_kernel_samsung_smdk4412" revision="lineage-16.0" />
   <project path="device/samsung/smdk4412-common" name="CustomROMs/android_device_samsung_smdk4412-common" revision="lineage-16.0" />
   <project path="device/samsung/i9300" name="FraEgg/android_device_samsung_i9300" revision="pie-luis" />
   <project path="vendor/samsung/smdk4412-common" name="CustomROMs/android_vendor_samsung_smdk4412-common" revision="lineage-15.1" />
