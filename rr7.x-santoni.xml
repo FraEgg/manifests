@@ -13,8 +13,6 @@
   <project name="FraEgg/proprietary_vendor_xiaomi_santoni_ra" path="vendor/xiaomi" remote="github" revision="lineage-16.0" />
 
   <!-- Temp fixes -->
-  <remove-project name="LineageOS/android_bootable_recovery" />
-  <project path="bootable/recovery" name="ResurrectionRemix/android_bootable_recovery" remote="github" revision="pie" />
   
   <!-- Additional -->
   <!-- <project name="FraEgg/aarch64-linux-gnu-8.2.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="github" revision="master" /> -->
