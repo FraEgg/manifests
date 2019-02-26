@@ -11,7 +11,7 @@
   <project name="FraEgg/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="pie-luis-cr-9.0" /> 
 
   <!-- Vendor -->
-  <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="pie-luis-cr9.0" />
+  <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-16.0" />
   
   <!-- Temp fixes -->
   
