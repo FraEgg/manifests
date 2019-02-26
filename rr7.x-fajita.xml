@@ -17,7 +17,10 @@
   <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-16.0" />
 
-  <!-- LOS Tempfixes -->
+  <!-- Temp fixes -->
+  <remove-project name="LineageOS/android_bootable_recovery" />
+  <project path="bootable/recovery" name="ResurrectionRemix/android_bootable_recovery" remote="github" revision="pie" />
+  
   <!--
   -->
 
