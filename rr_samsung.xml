@@ -63,12 +63,14 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="master" />
   
   <!-- Fix Weather Service -->
+  <!--
   <remove-project name="LineageOS/android_packages_apps_YahooWeatherProvider" /> 
   <remove-project name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <remove-project name="LineageOS/android_packages_providers_WeatherProvider" />
   
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" revision="lineage-15.1" />
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" revision="lineage-15.1" /> 
+  -->
   
   <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
