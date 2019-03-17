@@ -8,7 +8,7 @@
   <!-- Device tree -->
   <project name="FraEgg/android_device_oneplus_fajita" path="device/oneplus/fajita" remote="github" revision="pie-luis-los" />
   <project name="FraEgg/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="github" revision="pie-luis-los" />
-  <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-16.0" />
+  <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="pie-luis-op6" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 
   <!-- Kernel -->
