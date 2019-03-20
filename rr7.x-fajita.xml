@@ -18,8 +18,10 @@
   <project name="FraEgg/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-16.0" />
 
   <!-- Temp fixes 20.03.2019 -->
+  <!--
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Bluetooth" name="FraEgg/android_packages_apps_Bluetooth" remote="github" revision="pie-luis" />  
+  -->
   
   <!-- Luis ROM Changes -->
   <remove-project name="android_frameworks_base" />
