@@ -7,7 +7,7 @@
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
   
   <!-- Kernel -->
-  <project name="HarukeyUA/android_kernel_xiaomi_santoni" path="kernel/xiaomi/msm8937" remote="github" revision="DarkPhoenix" /> 
+  <project name="FraEgg/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="pie-luis-dp" /> 
 
   <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_xiaomi_santoni_ra" path="vendor/xiaomi" remote="github" revision="lineage-16.0" />
