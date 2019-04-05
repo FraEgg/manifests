@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Samsung Galaxy S8 (dreamlte) -->
+  <project name="FraEgg/android_device_samsung_dreamlte" path="device/samsung/dreamlte" remote="github" revision="pie-luis" />
+  <project name="travismills82/android_device_samsung_universal8895-common" path="device/samsung/universal8895-common" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="lineage-16.0" />
+  <project name="pierg75/android_hardware_samsung_slsi-cm_exynos8895" path="hardware/samsung_slsi-cm/exynos8895" remote="github" revision="lineage-16.0" />
+  <project name="LineagsOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="lineage-16.0" />
+  <project name="ivanmeler/android_kernel_samsung_universal8895" path="kernel/samsung/universal8895" remote="github" revision="seals" />
+
+  <!-- General -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+
+  <!-- Vendor -->
+  <project name="FraEgg/android_vendor_samsung_gts3llte" path="vendor/samsung/gts3llte" remote="github" revision="lineage-16.0" />
+  
+  <!-- Temp fixes -->
+  
+  <!-- Luis ROM Changes -->
+  <remove-project name="android_frameworks_base" />
+  <project path="frameworks/base" name="FraEgg/android_frameworks_base" remote="github" revision="pie-luis" />
+  
+  <remove-project name="android_vendor_resurrection" />
+  <project path="vendor/rr" name="FraEgg/android_vendor_resurrection" remote="github" revision="pie-luis-rr" />
+  
+  <remove-project name="android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater" remote="github" revision="pie-luis-rr" />
+  
+  <!-- <project name="FraEgg/packages_apps_ResurrectionStats" path="packages/apps/ResurrectionStats" remote="github" revision="pie-luis" /> -->
+  
+  <!-- Build with Wireguard -->	
+  <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+  <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+
+</manifest>
