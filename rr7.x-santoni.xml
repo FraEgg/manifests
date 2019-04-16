@@ -10,7 +10,7 @@
   <project name="FraEgg/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="pie-luis-dp" /> 
 
   <!-- Vendor -->
-  <project name="FraEgg/proprietary_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="pie" />
+  <project name="FraEgg/android_vendor_xiaomi_santoni" path="vendor/xiaomi" remote="github" revision="pie" />
 
   <!-- Temp fixes -->
   
