@@ -6,13 +6,13 @@
           revision="pie" />
 
   <!-- Device tree -->
-  <project name="FraEgg/android_device_oneplus_fajita" path="device/oneplus/fajita" remote="github" revision="pie-luis-los" />
-  <project name="FraEgg/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="github" revision="pie-luis-los" />
+  <project name="FraEgg/android_device_oneplus_oneplus6t_om" path="device/oneplus/oneplus6t" remote="github" revision="pie-luis" />
+  <project name="FraEgg/android_device_oneplus_oneplus6" path="device/oneplus/oneplus6" remote="github" revision="pie-luis" />
   <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 
   <!-- Kernel -->
-  <project name="FraEgg/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="pie-luis-sig" />
+  <project name="FraEgg/android_kernel_oneplus_sdm845_om" path="kernel/oneplus/sdm845" remote="github" revision="pie-luis" />
 
   <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_oneplus_tm" path="vendor/oneplus" remote="github" revision="lineage-16.0" />
