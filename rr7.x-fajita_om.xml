@@ -15,7 +15,7 @@
   <project name="FraEgg/android_kernel_oneplus_sdm845_om" path="kernel/oneplus/sdm845" remote="github" revision="pie-luis" />
 
   <!-- Vendor -->
-  <project name="DonkeyCoyote/vendor_oneplus" path="vendor/oneplus" remote="github" revision="android-9.0" />
+  <project name="FraEgg/vendor_oneplus_om" path="vendor/oneplus" remote="github" revision="pie-luis" />
 
   <!-- Temp fixes 20.03.2019 -->
   <!--
