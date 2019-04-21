@@ -21,6 +21,9 @@
   <!-- Additional -->
   <!-- <project name="FraEgg/aarch64-linux-gnu-8.2.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="github" revision="master" /> -->
   
+  <!-- FOD -->
+  <project path="vendor/interfaces" name="FraEgg/android_vendor_interfaces_lr" remote="github" revision="pie" />
+  
   <!-- LOS Tempfixes -->
   <!--
   -->
