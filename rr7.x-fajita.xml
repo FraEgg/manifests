@@ -30,6 +30,10 @@
   <!-- FOD -->
   <project path="vendor/interfaces" name="FraEgg/android_vendor_interfaces_lr" remote="github" revision="pie" />
   
+  <!-- Recovery -->
+  <remove-project name="LineageOS/android_bootable_recovery" />  
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-9.0" />  
+  
   <!-- <project name="FraEgg/packages_apps_ResurrectionStats" path="packages/apps/ResurrectionStats" remote="github" revision="pie-luis" /> -->
 
   <!-- Additional -->
