@@ -33,7 +33,7 @@
   <!-- Recovery -->
   <remove-project name="LineageOS/android_bootable_recovery" />  
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-9.0" />
-  <project path="external/busybox" name="android_external_busybox" remote="github" revision="android-9.0" />
+  <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-9.0" />
   
   <!-- <project name="FraEgg/packages_apps_ResurrectionStats" path="packages/apps/ResurrectionStats" remote="github" revision="pie-luis" /> -->
 
