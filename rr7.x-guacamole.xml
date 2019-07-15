@@ -38,7 +38,7 @@
     <remove-project name="LineageOS/android_hardware_lineage_interfaces"/>
     <!-- <remove-project name="LineageOS/android_frameworks_av"/> -->
     <!-- <remove-project name="LineageOS/android_frameworks_native"/> -->
-    <!-- <remove-project name="LineageOS/android_build_soong"/> -->
+    <remove-project name="android_build_soong"/>
     <!-- <remove-project name="LineageOS/android_device_qcom_sepolicy"/> -->
     <!-- <remove-project name="LineageOS/android_system_sepolicy"/> -->
     <!-- <project path="frameworks/base" name="android_frameworks_base-lineage" remote="petercxy" revision="lineage-16.0"/> -->
@@ -52,7 +52,7 @@
     <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="petercxy" revision="lineage-16.0"/>
     <!-- <project path="frameworks/av" name="android_frameworks_av-1" remote="petercxy" revision="lineage-16.0"/> -->
     <!-- <project path="frameworks/native" name="android_frameworks_native" remote="petercxy" revision="lineage-16.0"/> -->
-    <!-- <project path="build/soong" name="android_build_soong" remote="petercxy" revision="lineage-16.0"/> -->
+    <project path="build/soong" name="android_build_soong" remote="petercxy" revision="lineage-16.0"/>
     <!-- <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="petercxy" revision="lineage-16.0"/> -->
     <!-- <project path="system/sepolicy" name="android_system_sepolicy" remote="petercxy" revision="lineage-16.0"/> -->
 
