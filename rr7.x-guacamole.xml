@@ -27,42 +27,35 @@
   
   <!-- Adds for Oneplus 7Plus (Guacamole) by PeterCxy -->
     <remote name="petercxy"
-	  fetch="https://github.com/PeterCxy" />
-    <!-- 
-    <remove-project name="LineageOS/android_build"/>
-    <remove-project name="LineageOS/android_vendor_lineage"/>
-    -->
+    fetch="https://github.com/PeterCxy" />
+    <!-- <remove-project name="LineageOS/android_build"/> -->
+    <!-- <remove-project name="LineageOS/android_vendor_lineage"/> -->
     <remove-project name="LineageOS/android_hardware_qcom_power"/>
-    <!--
-    <remove-project name="LineageOS/android_frameworks_base"/>
-    <remove-project name="LineageOS/android_system_core"/>
-    <remove-project name="LineageOS/android_system_vold"/>
-    -->
+    <!-- <remove-project name="LineageOS/android_frameworks_base"/> -->
+    <!-- <remove-project name="LineageOS/android_system_core"/> -->
+    <!-- <remove-project name="LineageOS/android_system_vold"/> -->
     <remove-project name="LineageOS/android_hardware_interfaces"/>
     <remove-project name="LineageOS/android_hardware_lineage_interfaces"/>
-    <remove-project name="LineageOS/android_frameworks_av"/>
-    <remove-project name="LineageOS/android_frameworks_native"/>
-    <remove-project name="LineageOS/android_build_soong"/>
-    <remove-project name="LineageOS/android_device_qcom_sepolicy"/>
-    <remove-project name="LineageOS/android_system_sepolicy"/>
-  
+    <!-- <remove-project name="LineageOS/android_frameworks_av"/> -->
+    <!-- <remove-project name="LineageOS/android_frameworks_native"/> -->
+    <!-- <remove-project name="LineageOS/android_build_soong"/> -->
+    <!-- <remove-project name="LineageOS/android_device_qcom_sepolicy"/> -->
+    <!-- <remove-project name="LineageOS/android_system_sepolicy"/> -->
     <!-- <project path="frameworks/base" name="android_frameworks_base-lineage" remote="petercxy" revision="lineage-16.0"/> -->
-    <!--
-    <project path="system/core" name="android_system_core" remote="petercxy" revision="lineage-16.0"/>
-    <project path="system/vold" name="android_system_vold" remote="petercxy" revision="lineage-16.0"/>
-    -->
+    <!-- <project path="system/core" name="android_system_core" remote="petercxy" revision="lineage-16.0"/> -->
+    <!-- <project path="system/vold" name="android_system_vold" remote="petercxy" revision="lineage-16.0"/> -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="petercxy" revision="lineage-16.0"/>
     <!-- <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" revision="lineage-16.0"/> -->
     <!-- <project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" remote="lineage" revision="lineage-16.0"/> -->
     <!-- <project path="vendor/lineage" name="android_vendor_lineage" remote="petercxy" revision="lineage-16.0"/> -->
     <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="petercxy" revision="lineage-16.0"/>
     <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="petercxy" revision="lineage-16.0"/>
-    <project path="frameworks/av" name="android_frameworks_av-1" remote="petercxy" revision="lineage-16.0"/>
-    <project path="frameworks/native" name="android_frameworks_native" remote="petercxy" revision="lineage-16.0"/>
-    <project path="build/soong" name="android_build_soong" remote="petercxy" revision="lineage-16.0"/>
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="petercxy" revision="lineage-16.0"/>
-    <project path="system/sepolicy" name="android_system_sepolicy" remote="petercxy" revision="lineage-16.0"/>
-  
+    <!-- <project path="frameworks/av" name="android_frameworks_av-1" remote="petercxy" revision="lineage-16.0"/> -->
+    <!-- <project path="frameworks/native" name="android_frameworks_native" remote="petercxy" revision="lineage-16.0"/> -->
+    <!-- <project path="build/soong" name="android_build_soong" remote="petercxy" revision="lineage-16.0"/> -->
+    <!-- <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="petercxy" revision="lineage-16.0"/> -->
+    <!-- <project path="system/sepolicy" name="android_system_sepolicy" remote="petercxy" revision="lineage-16.0"/> -->
+
     <!-- <project name="FraEgg/packages_apps_ResurrectionStats" path="packages/apps/ResurrectionStats" remote="github" revision="pie-luis" /> -->
   
     <!-- Build with Wireguard -->	
