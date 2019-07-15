@@ -26,6 +26,7 @@
   <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater" remote="github" revision="pie-luis-rr" />
   
   <!-- Adds for Oneplus 7Plus (Guacamole) by PeterCxy -->
+  
     <remote name="petercxy"
     fetch="https://github.com/PeterCxy" />
     <!-- <remove-project name="LineageOS/android_build"/> -->
@@ -36,8 +37,8 @@
     <!-- <remove-project name="LineageOS/android_system_vold"/> -->
     <remove-project name="LineageOS/android_hardware_interfaces"/>
     <remove-project name="LineageOS/android_hardware_lineage_interfaces"/>
-    <!-- <remove-project name="LineageOS/android_frameworks_av"/> -->
-    <!-- <remove-project name="LineageOS/android_frameworks_native"/> -->
+    <remove-project name="frameworks_av"/>
+    <remove-project name="frameworks_native"/>
     <remove-project name="android_build_soong"/>
     <!-- <remove-project name="LineageOS/android_device_qcom_sepolicy"/> -->
     <!-- <remove-project name="LineageOS/android_system_sepolicy"/> -->
@@ -50,8 +51,8 @@
     <!-- <project path="vendor/lineage" name="android_vendor_lineage" remote="petercxy" revision="lineage-16.0"/> -->
     <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="petercxy" revision="lineage-16.0"/>
     <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="petercxy" revision="lineage-16.0"/>
-    <!-- <project path="frameworks/av" name="android_frameworks_av-1" remote="petercxy" revision="lineage-16.0"/> -->
-    <!-- <project path="frameworks/native" name="android_frameworks_native" remote="petercxy" revision="lineage-16.0"/> -->
+    <project path="frameworks/av" name="android_frameworks_av-1" remote="petercxy" revision="lineage-16.0"/>
+    <project path="frameworks/native" name="android_frameworks_native" remote="petercxy" revision="lineage-16.0"/>
     <project path="build/soong" name="android_build_soong" remote="petercxy" revision="lineage-16.0"/>
     <!-- <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="petercxy" revision="lineage-16.0"/> -->
     <!-- <project path="system/sepolicy" name="android_system_sepolicy" remote="petercxy" revision="lineage-16.0"/> -->
