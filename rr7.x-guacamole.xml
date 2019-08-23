@@ -13,7 +13,7 @@
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 
   <!-- Kernel -->
-  <project name="FraEgg/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="pie-luis-luk" /> 
+  <project name="FraEgg/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="pie-luis" /> 
 
   <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_oneplus_tm" path="vendor/oneplus" remote="github" revision="lineage-16.0" />
