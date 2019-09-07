@@ -35,6 +35,9 @@
   <project path="vendor/addons" name="FraEgg/android_vendor_addons_cr" remote="github" revision="9.0-luis" />
   
   <!-- <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" /> -->
+  
+  <!-- Custom Toolchain -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/arm64-gcc" name="FraEgg/arm64-gcc" remote="github" revision="master" />
    
   <!-- Build with Wireguard -->	
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
