@@ -16,7 +16,10 @@
 
   <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="9.0" />
-    
+
+  <!-- SnapdragonCamera2 -->
+  <project name="omnirom/android_packages_apps_SnapdragonCamera2" path="packages/apps/SnapdragonCamera2" remote="github" revision="android-9.0" />
+  
   <!-- LOS Tempfixes -->
   <!--
   -->
