@@ -13,16 +13,13 @@
 
   <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="10.0" />
-
-  <!-- Additional -->
-  <!-- <project name="FraEgg/aarch64-linux-gnu-8.2.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="github" revision="master" /> -->
   
   <!-- Temp fixes -->
-  <!--
-  <remove-project name="LineageOS/android_hardware_qcom_audio" revision="lineage-16.0-caf-8998" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="FraEgg/android_hardware_qcom_audio" remote="github" revision="lineage-16.0-caf-8998" />
-  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="github" groups="qcom,qcom_audio,pdk-qcom" />
-  -->
+  <remove-project name="crdroidandroid/android_build_soong" />
+  <project path="build/soong" name="FraEgg/android_build_soong_cr" remote="github" revision="10.0-luis" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
