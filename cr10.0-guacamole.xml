@@ -40,7 +40,9 @@
   <!-- <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" /> -->
 
   <!-- Build with Wireguard -->
+  <!-- 
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
   <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
-
+  -->
+	  
 </manifest>
