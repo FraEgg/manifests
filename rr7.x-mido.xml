@@ -17,6 +17,17 @@
   <!-- <project name="FraEgg/aarch64-linux-gnu-8.2.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="github" revision="master" /> -->
   
   <!-- Luis ROM Changes -->
+  <remove-project name="android_build" />
+  <project path="build/make" name="FraEgg/android_build" remote="github" revision="pie-luis">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  
   <remove-project name="android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base" remote="github" revision="pie-luis" />
   
