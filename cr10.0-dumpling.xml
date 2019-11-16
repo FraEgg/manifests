@@ -4,15 +4,26 @@
   <!-- Device tree -->
   <project name="FraEgg/android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="10.0-luis-cr" />
   <project name="FraEgg/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="10.0-luis-cr" />
+  
+  <!-- <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-17.0" /> -->
   <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="10.0-luis-cr"/>
-  <!-- <project name="crdroidandroid/android_device_qcom_common" path="device/qcom/common" remote="github" revision="9.0" /> -->
+  
+  <!-- <project name="LineageOS/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="lineage-17.0" /> -->
+  <project name="FraEgg/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="10.0-luis-cr" /> 
+  
+  <!-- <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-17.0" /> -->
+  <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="10.0" />
+  
   <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" />
   
-  <!-- Kernel -->
+  <!--
+  <project name="FraEgg/android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="10.0-luis-cr" />
+  <project name="FraEgg/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="10.0-luis-cr" />
+  <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="10.0-luis-cr"/>
+  <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" />
   <project name="FraEgg/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="10.0-luis-cr" /> 
-
-  <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="10.0" />
+  -->
   
   <!-- Temp fixes -->
   <remove-project name="crdroidandroid/android_build_soong" />
@@ -35,9 +46,7 @@
   <project path="vendor/addons" name="FraEgg/android_vendor_addons_cr" remote="github" revision="10.0-luis" />
 
   <!-- Build with Wireguard -->	
-  <!--
   <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
   <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
-  -->
 
 </manifest>
