@@ -21,7 +21,7 @@
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="github" revision="lineage-17.0" />
 
   <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
-  <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" remote="github" revision="lineage-17.0" />
+  <project path="packages/providers/DownloadProvider" name="FraEgg/android_packages_providers_DownloadProvider" remote="github" revision="lineage-17.0" />
 
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
