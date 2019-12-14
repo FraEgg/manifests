@@ -8,7 +8,6 @@
 
   <!-- Oppo adds -->
   <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="10.0-luis-cr"/>
-  <!-- <project name="crdroidandroid/android_device_qcom_common" path="device/qcom/common" remote="github" revision="10.0" /> -->
   <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" />
 
   <!-- Kernel -->
@@ -18,15 +17,14 @@
   <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="10.0-op7p" />
 
   <!-- Temp fixes -->
+  <!--
   <remove-project name="crdroidandroid/android_build_soong" />
   <project path="build/soong" name="FraEgg/android_build_soong_cr" remote="github" revision="10.0-luis" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-
-  <remove-project name="crdroidandroid/android_hardware_interfaces" />
-  <project path="hardware/interfaces" name="FraEgg/android_hardware_interfaces_cr" remote="github" revision="10.0-luis-cr-ar" />	
-	
+  -->
+		
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="10.0-luis" />
@@ -39,6 +37,9 @@
 
   <remove-project name="crdroidandroid/android_vendor_addons" />
   <project path="vendor/addons" name="FraEgg/android_vendor_addons_cr" remote="github" revision="10.0-luis" />
+
+  <remove-project name="crdroidandroid/android_hardware_interfaces" />
+  <project path="hardware/interfaces" name="FraEgg/android_hardware_interfaces_cr" remote="github" revision="10.0-luis-cr-ar" />	
 
   <!-- <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" /> -->
 
