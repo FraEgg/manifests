@@ -24,6 +24,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <remove-project name="crdroidandroid/android_hardware_interfaces" />
+  <project path="hardware/interfaces" name="ArrowOS/android_hardware_interfaces" remote="github" revision="arrow-10.0" />	
+	
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="10.0-luis" />
