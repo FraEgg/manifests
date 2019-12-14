@@ -25,7 +25,7 @@
   </project>
 
   <remove-project name="crdroidandroid/android_hardware_interfaces" />
-  <project path="hardware/interfaces" name="ArrowOS/android_hardware_interfaces" remote="github" revision="arrow-10.0" />	
+  <project path="hardware/interfaces" name="FraEgg/android_hardware_interfaces_cr" remote="github" revision="10.0-luis-cr-ar" />	
 	
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
