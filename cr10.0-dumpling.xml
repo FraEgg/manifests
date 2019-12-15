@@ -17,14 +17,17 @@
     </project>
     -->
     
-    <remove-project name="crdroidandroid/android_frameworks_av" />
-    <project path="frameworks/av" name="LineageOS/android_frameworks_av" remote="github" revision="lineage-17.0" />
+  <remove-project name="crdroidandroid/android_frameworks_av" />
+  <project path="frameworks/av" name="LineageOS/android_frameworks_av" remote="github" revision="lineage-17.0" />
 
-    <remove-project name="crdroidandroid/android_hardware_interfaces" />
-    <project path="hardware/interfaces" name="FraEgg/android_hardware_interfaces_cr" remote="github" revision="10.0-luis-cr-ar" />
+  <remove-project name="crdroidandroid/android_hardware_interfaces" />
+  <project path="hardware/interfaces" name="FraEgg/android_hardware_interfaces_cr" remote="github" revision="10.0-luis-cr-ar" />
 
-    <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
-    <project path="packages/apps/crDroidSettings" name="FraEgg/android_packages_apps_crDroidSettings" remote="github" revision="10.0-luis-cr" />
+  <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
+  <project path="packages/apps/crDroidSettings" name="FraEgg/android_packages_apps_crDroidSettings" remote="github" revision="10.0-luis-cr" />
+
+  <remove-project name="crdroidandroid/android_lineage-sdk" />
+  <project path="lineage-sdk" name="FraEgg/android_lineage-sdk_cr" remote="github" revision="10.0-luis-cr" />
 
     <!-- Luis ROM Changes -->
     <remove-project name="crdroidandroid/android_frameworks_base" />
