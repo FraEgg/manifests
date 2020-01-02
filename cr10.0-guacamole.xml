@@ -35,7 +35,7 @@
   <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater_cr" revision="10.0-luis-cr" />
 
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
-  <project path="/vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="10.0-luis-cr" />
+  <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="10.0-luis-cr" />
   
   <!-- Build with Wireguard -->
   <!--
