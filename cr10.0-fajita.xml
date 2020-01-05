@@ -11,7 +11,7 @@
   <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" />
 
   <!-- Kernel -->
-  <project name="FraEgg/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="10.0-luis-cr" />
+  <project name="FraEgg/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="10.0-luis-sta" />
 
   <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="10.0" />
