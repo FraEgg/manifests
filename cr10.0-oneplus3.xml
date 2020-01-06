@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device tree -->
+  <project name="FraEgg/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="github" revision="10.0-luis-los" />
+  <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="10.0-luis-cr"/>
+  <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" />
+  
+  <!-- Kernel -->
+  <project name="FraEgg/android_kernel_oneplus_msm8996_los" path="kernel/oneplus/msm8996" remote="github" revision="10.0-luis-los" /> 
+
+  <!-- Vendor -->
+  <project name="FraEgg/proprietary_vendor_oneplus_tm" path="vendor/oneplus" remote="github" revision="lineage-17.1" />
+  
+  <!-- Temp fixes -->
+  
+  <!-- Additional -->
+  
+  <!-- Luis ROM Changes -->
+      <remove-project name="crdroidandroid/android_frameworks_base" />
+      <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="10.0-luis-cr" />
+
+      <remove-project name="crdroidandroid/android_system_core" />
+      <project path="system/core" name="FraEgg/android_system_core_cr" remote="github" revision="10.0-luis-cr" />
+
+      <remove-project name="crdroidandroid/android_vendor_crdroid" />
+      <project path="vendor/lineage" name="FraEgg/android_vendor_crdroid" remote="github" revision="10.0-luis-cr" />
+
+      <remove-project name="crdroidandroid/android_vendor_addons" />
+      <project path="vendor/addons" name="FraEgg/android_vendor_addons_cr" remote="github" revision="10.0-luis-cr" />
+
+      <remove-project name="crdroidandroid/android_packages_apps_Updater" />
+      <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater_cr" revision="10.0-luis-cr" />
+
+      <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
+      <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="10.0-luis-cr" />
+  
+      <!-- Build with Wireguard -->
+      <!--
+      <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
+      <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
+      -->
+		  
+</manifest>
