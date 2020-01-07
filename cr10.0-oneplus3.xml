@@ -10,7 +10,7 @@
   <project name="FraEgg/android_kernel_oneplus_msm8996_los" path="kernel/oneplus/msm8996" remote="github" revision="10.0-luis-los" /> 
 
   <!-- Vendor -->
-  <project name="FraEgg/proprietary_vendor_oneplus_tm" path="vendor/oneplus" remote="github" revision="lineage-17.1" />
+  <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="10.0" />
   
   <!-- Temp fixes -->
   
