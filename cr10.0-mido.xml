@@ -9,7 +9,7 @@
   <project name="FraEgg/android_kernel_xiaomi_msm8953_ze" path="kernel/xiaomi/msm8953" remote="github" revision="10.0-luis-cr" />
 
   <!-- Vendor -->
-  <project name="FraEgg/proprietary_vendor_xiaomi_mido_ze" path="vendor/xiaomi" remote="github" revision="10.0-luis-cr" />
+  <project name="FraEgg/proprietary_vendor_xiaomi_mido_ze" path="vendor/xiaomi/mido" remote="github" revision="10.0-luis-cr" />
 
   <!-- Temp fixes -->
 
