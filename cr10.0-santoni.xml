@@ -3,7 +3,7 @@
 
   <!-- Device tree -->
   <project name="FraEgg/android_device_xiaomi_santoni_ra" path="device/xiaomi/santoni" remote="github" revision="10.0-luis-cr" />
-  <!-- <project name="FraEgg/android_device_xiaomi_msm8937-common_ra" path="device/xiaomi/msm8937-common" remote="github" revision="10.0-luis-cr" /> -->
+  <project name="FraEgg/android_device_xiaomi_msm8937-common_ra" path="device/xiaomi/msm8937-common" remote="github" revision="10.0-luis-cr" />
   <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" />
 
   <!-- Kernel -->
