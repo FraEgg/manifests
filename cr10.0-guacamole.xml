@@ -8,7 +8,7 @@
 
   <!-- Oppo adds -->
   <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="10.0-luis-cr"/>
-  <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" />
+  <!-- <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" /> -->
 
   <!-- Kernel -->
   <project name="FraEgg/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="10.0-luis-cr" />
