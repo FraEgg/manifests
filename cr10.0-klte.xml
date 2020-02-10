@@ -6,7 +6,7 @@
     <project name="FraEgg/android_kernel_samsung_msm8974" path="kernel/samsung/msm8974" remote="github" revision="10.0-luis-cr" />
     <project name="FraEgg/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="10.0-luis-cr" />
 
-    <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="lineage-17.1" />
+    <!-- <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="lineage-17.1" /> -->
 
     <!-- General -->
     <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-17.1" />
