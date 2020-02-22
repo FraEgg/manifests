@@ -16,7 +16,7 @@
       <project name="FraEgg/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="10.0-luis-cr"/>
         
       <!--Samsung S.LSI BSP-->
-      <project name="FraEgg/proprietary_vendor_seal_seal" path="vendor/seal/seal" remote="gitl" revision="10.0-luis-cr"/>
+      <project name="FraEgg/proprietary_vendor_seal_seal" path="vendor/seal/seal" remote="github" revision="10.0-luis-cr"/>
 
       <!-- Temp fixes -->
 
