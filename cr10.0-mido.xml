@@ -2,14 +2,12 @@
 <manifest>
 
   <!-- Device tree -->
-  <project name="FraEgg/android_device_xiaomi_mido_ze" path="device/xiaomi/mido" remote="github" revision="10.0-luis-cr" />
-  <!-- <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" /> -->
-
+  <project name="FraEgg/android_device_xiaomi_mido_ze" path="device/xiaomi/mido" remote="github" revision="10.0-luis-cr-ze" />
   <!-- Kernel -->
-  <project name="FraEgg/android_kernel_xiaomi_msm8953_ze" path="kernel/xiaomi/msm8953" remote="github" revision="10.0-luis-cr" />
+  <project name="FraEgg/android_kernel_xiaomi_msm8953_ze" path="kernel/xiaomi/mido" remote="github" revision="10.0-luis-cr-ze" />
 
   <!-- Vendor -->
-  <project name="FraEgg/proprietary_vendor_xiaomi_mido_ze" path="vendor/xiaomi/mido" remote="github" revision="10.0-luis-cr" />
+  <project name="FraEgg/proprietary_vendor_xiaomi_mido_ze" path="vendor/xiaomi" remote="github" revision="10.0-luis-cr-ze" />
 
   <!-- Temp fixes -->
 
