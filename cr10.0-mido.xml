@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Device tree -->
-  <project name="FraEgg/android_device_xiaomi_mido_ze" path="device/xiaomi/mido" remote="github" revision="10.0-luis-cr-ze" />
+  <project name="FraEgg/android_device_xiaomi_mido_ze" path="device/xiaomi/mido" remote="github" revision="10.0-luis-cr-sh" />
   <!-- Kernel -->
   <project name="FraEgg/android_kernel_xiaomi_msm8953_ze" path="kernel/xiaomi/mido" remote="github" revision="10.0-luis-cr-ze" />
 
