@@ -15,7 +15,6 @@
 
     <!-- Vendor -->
     <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="10.0-op6" />
-    <!-- ><project path="vendor/addons/onepluscamera" name="FraEgg/android_vendor_addons_onepluscamera" remote="github" revision="10.0-luis-cr" /> -->
 
   <!-- Temp fixes -->
 
