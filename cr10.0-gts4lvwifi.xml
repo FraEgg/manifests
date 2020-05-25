@@ -32,7 +32,7 @@
       <project path="vendor/addons" name="FraEgg/android_vendor_addons_cr" remote="github" revision="10.0-luis-cr" />
   
       <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
-      <project path="packages/apps/crDroidSettings" name="FraEgg/android_packages_apps_crDroidSettings" revision="10.0-luis-cr-wifi" />
+      <project path="packages/apps/crDroidSettings" name="FraEgg/android_packages_apps_crDroidSettings" revision="10.0-luis-cr" />
 
       <remove-project name="crdroidandroid/android_packages_apps_Updater" />
       <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater_cr" revision="10.0-luis-cr" />
