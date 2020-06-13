@@ -13,8 +13,10 @@
   <project name="FraEgg/proprietary_vendor_oneplus_tm" path="vendor/oneplus" remote="github" revision="lineage-17.1" />
 
   <!-- Temp fixes -->
+  <!--
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <project path="hardware/qcom-caf/msm8996/display" name="FraEgg/android_hardware_qcom_display_ze" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-17.1-caf-msm8996" />
+  -->
 
   <!-- Additional -->
 
