@@ -12,7 +12,7 @@
 
   <!-- Vendor -->
   <project name="FraEgg/vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="10.0" />
-  <project name="trinket-devs/vendor_miuicamera" path="vendor/miuicamera" remote="github" revision="10.0" />
+  <project name="FraEgg/vendor_miuicamera" path="vendor/miuicamera" remote="github" revision="10.0-luis-td" />
 
   <!-- Temp fixes -->
   <!-- <project name="FraEgg/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" remote="github" revision="master" /> -->
