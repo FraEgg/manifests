@@ -5,14 +5,14 @@
 
   <!-- Device tree -->
   <project name="FraEgg/device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="github" revision="10.0-luis-td" />
-  <project name="pshreejoy15/vendor_xiaomi_firmware" path="vendor/xiaomi/firmware" remote="gitlab" revision="ten" />
+  <!-- ><project name="pshreejoy15/vendor_xiaomi_firmware" path="vendor/xiaomi/firmware" remote="gitlab" revision="ten" /> -->
 
   <!-- Kernel -->
   <project name="FraEgg/kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="github" revision="10.0-luis-td" />
 
   <!-- Vendor -->
   <project name="FraEgg/vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="10.0" />
-  <project name="FraEgg/vendor_ANXCamera" path="vendor/ANXCamera" remote="github" revision="master" />
+  <project name="trinket-devs/vendor_miuicamera" path="vendor/miuicamera" remote="github" revision="10.0" />
 
   <!-- Temp fixes -->
   <!-- <project name="FraEgg/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" remote="github" revision="master" /> -->
