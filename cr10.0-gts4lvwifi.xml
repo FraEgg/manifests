@@ -40,6 +40,9 @@
       <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
       <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="10.0-luis-cr" />
 
+      <remove-project name="crdroidandroid/android_system_libhidl" />
+      <project path="system/libhidl" name="FraEgg/android_system_libhidl" revision="10.0-luis-cr" />
+
       <!-- Build with Wireguard -->
       <!--
       <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
