@@ -16,6 +16,7 @@
   <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="11.0-op7p" />
 
   <!-- Temp fixes -->
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="lineage-18.0-caf-sm8150" />
 
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
