@@ -2,23 +2,23 @@
 <manifest>
 
   <!-- Device tree -->
-  <project name="FraEgg/android_device_oneplus_guacamole" path="device/oneplus/guacamole" remote="github" revision="10.0-luis-cr" />
-  <project name="FraEgg/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="github" revision="10.0-luis-cr" />
-  <project name="FraEgg/android_device_oneplus_common" path="device/oneplus/common" remote="github" revision="10.0-luis-cr" />
+  <project name="crdroidandroid/android_device_oneplus_guacamole" path="device/oneplus/guacamole" remote="github" revision="11.0" />
+  <project name="crdroidandroid/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="github" revision="11.0" />
+  <project name="crdroidandroid/android_device_oneplus_common" path="device/oneplus/common" remote="github" revision="11.0" />
 
   <!-- Oppo adds -->
-  <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="10.0-luis-cr"/>
-  <!-- <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" /> -->
+  <project name="crdroidandroid/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-18.0"/>
 
   <!-- Kernel -->
-  <project name="FraEgg/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="10.0-luis-cr" />
+  <project name="crdroidandroid/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="11.0" />
 
   <!-- Vendor -->
-  <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="10.0-op7p" />
+  <project name="crdroidandroid/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="11.0-OP7PRO" />
 
   <!-- Temp fixes -->
 
   <!-- Luis ROM Changes -->
+  <!--
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="10.0-luis-cr" />
 
@@ -39,14 +39,9 @@
 
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
   <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="10.0-luis-cr" />
+  -->
   
   <!-- CLANG -->
   <!-- <project path="prebuilts/clang/host/linux-x86/clang-6778096" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6778096" revision="10.0" /> -->
-  
-  <!-- Build with Wireguard -->
-  <!--
-  <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
-  <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
-  -->
 
 </manifest>
