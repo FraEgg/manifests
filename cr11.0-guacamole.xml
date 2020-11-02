@@ -13,10 +13,13 @@
   <project name="FraEgg/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="11.0-luis-cr" />
 
   <!-- Vendor -->
-  <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="11.0-op7p" />
+  <!-- <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="11.0-op7p" /> -->
+  <project name="luk1337/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-18.0" />
 
   <!-- Temp fixes -->
-  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="lineage-18.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-18.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-18.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-18.0-caf-sm8150" />
 
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
