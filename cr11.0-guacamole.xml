@@ -8,10 +8,12 @@
   <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="11.0-op7p" />
 
   <!-- Temp fixes -->
+  <!--
   <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
-  
+  -->
+	  
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="11.0-luis-cr" />
