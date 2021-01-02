@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Device tree -->
-  <project name="FraEgg/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="github" revision="11.0-luis-los" />
-  <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-18.1"/>
-  <!-- <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" /> -->
-
-  <!-- Kernel -->
-  <project name="FraEgg/android_kernel_oneplus_msm8996_los" path="kernel/oneplus/msm8996" remote="github" revision="11.0-luis-los" />
-
-  <!-- Vendor -->
+  <project name="FraEgg/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="github" revision="11.0-luis-ar" />
+  <project name="FraEgg/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-18.1" />
+  <project name="FraEgg/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="11.0-luis-ar" />
   <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus/oneplus3" remote="github" revision="11.0-op3" />
 		  
   <!-- Luis ROM Changes -->
