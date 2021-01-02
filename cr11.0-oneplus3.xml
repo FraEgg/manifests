@@ -10,9 +10,9 @@
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="11.0-luis-cr" />
 
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <remove-project name="crdroidandroid/android_hardware_qcom_audio" />
+  <remove-project name="crdroidandroid/android_hardware_qcom_display" />
+  <remove-project name="crdroidandroid/android_hardware_qcom_media" />
   <project path="hardware/qcom-caf/msm8996/audio" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="arrow-11.0-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/display" name="ArrowOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="arrow-11.0-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/media" name="ArrowOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="arrow-11.0-caf-msm8996" />
