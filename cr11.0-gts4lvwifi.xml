@@ -10,7 +10,7 @@
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-18.1" />
 
   <!-- QCOM -->
-  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-18.1" />
+  <project name="FraEgg/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="11.0-luis-los" />
   
   <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_samsung_tm" path="vendor/samsung" remote="github" revision="lineage-18.1" />
