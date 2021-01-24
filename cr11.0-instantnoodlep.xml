@@ -57,5 +57,8 @@
 
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
   <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="11.0-luis-cr" />
+  
+  <!-- CLANG-PROTON --->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="FraEgg/proton-clang" remote="github" revision="master" />
 
 </manifest>
