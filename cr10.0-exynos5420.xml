@@ -15,7 +15,7 @@
     <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
 
     <!-- KERNEL -->
-    <project name="exynos5420/android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="github" />
+    <project name="FraEgg/android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="github" revision="10.0-luis-cr" />
 
     <!-- VENDOR -->
     <project name="exynos5420/android_vendor_samsung_chagallwifi" path="vendor/samsung/chagallwifi" remote="github" />
