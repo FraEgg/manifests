@@ -2,21 +2,21 @@
 <manifest>
 
       <!--Device tree-->
-      <project name="FraEgg/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github" revision="10.0-luis-cr"/>
-      <project name="FraEgg/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="10.0-luis-cr"/>
-      <project name="FraEgg/android_device_samsung_hero-common" path="device/samsung/hero-common" remote="github" revision="10.0-luis-cr"/>
+      <project name="FraEgg/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github" revision="11.0-luis-los"/>
+      <project name="FraEgg/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="11.0-luis-los"/>
+      <project name="FraEgg/android_device_samsung_universal8890-common" path="device/samsung/universal8890-common" remote="github" revision="11.0-luis-los"/>
 
       <!--Hardware-->
-      <project name="FraEgg/android_hardware_samsung_herolte" path="hardware/samsung" remote="github" revision="10.0-luis-cr"/>
+      <project name="FraEgg/android_hardware_samsung" path="hardware/samsung" remote="github" revision="11.0-luis-los"/>
         
       <!--Kernel-->
-      <project name="FraEgg/android_kernel_samsung_herolte" path="kernel/samsung/universal8890" remote="github" revision="10.0-luis-cr"/>
+      <project name="FraEgg/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" remote="github" revision="11.0-luis-los"/>
         
       <!--Blobs-->
-      <project name="FraEgg/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="10.0-luis-cr"/>
+      <project name="FraEgg/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="11.0-luis-los"/>
         
-      <!--Samsung S.LSI BSP-->
-      <project name="FraEgg/proprietary_vendor_seal_seal" path="vendor/seal/seal" remote="github" revision="10.0-luis-cr"/>
+      <!--Vendor-->
+      <project name="FraEgg/proprietary_vendor_samsung_tm" path="vendor/samsung" remote="github" revision="lineage-18.1"/>
 
       <!-- Temp fixes -->
 
@@ -41,11 +41,5 @@
 
       <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
       <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="10.0-luis-cr" />
-
-      <!-- Build with Wireguard -->
-      <!--
-      <remote name="zx2c4" fetch="https://git.zx2c4.com/" />
-      <project remote="zx2c4" name="android_kernel_wireguard" path="kernel/wireguard" revision="master" sync-s="true" />
-      -->
 
 </manifest>
