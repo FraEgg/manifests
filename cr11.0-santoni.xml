@@ -24,6 +24,8 @@
   <remove-project name="crdroidandroid/android_hardware_qcom_media" />
   <project path="hardware/qcom-caf/msm8996/media" name="Jabiyeff/android_hardware_qcom_media" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="caf-msm8996-r" />
   
+  <project name="SpiceOS/android_prebuilts_clang_host_linux-x86_clang-7284624" path="prebuilts/clang/host/linux-x86/clang-7284624" remote="github" revision="11" />
+  
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="11.0-luis-cr" />
