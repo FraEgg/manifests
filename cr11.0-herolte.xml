@@ -10,7 +10,7 @@
       <project name="FraEgg/android_hardware_samsung" path="hardware/samsung" remote="github" revision="11.0-luis-los"/>
         
       <!--Kernel-->
-      <project name="FraEgg/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" remote="github" revision="11.0-luis-los"/>
+      <project name="FraEgg/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" remote="github" revision="11.0-luis-fc"/>
         
       <!--Blobs-->
       <project name="FraEgg/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="11.0-luis-los"/>
