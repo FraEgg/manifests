@@ -1,30 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Device tree -->
-  <project name="FraEgg/android_device_xiaomi_santoni_ra" path="device/xiaomi/santoni" remote="github" revision="11.0-luis-cr" />
-  <!-- <project name="FraEgg/android_device_xiaomi_msm8937-common_ra" path="device/xiaomi/msm8937-common" remote="github" revision="10.0-luis-cr-pd" /> -->
-  <!-- <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" /> -->
+    <!-- Device tree -->
+    <project name="FraEgg/android_device_xiaomi_santoni_ra" path="device/xiaomi/santoni" remote="github" revision="11.0-luis-cr" />
+    <!-- <project name="FraEgg/android_device_xiaomi_msm8937-common_ra" path="device/xiaomi/msm8937-common" remote="github" revision="10.0-luis-cr-pd" /> -->
+    <!-- <project name="crdroidandroid/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="10.0" /> -->
 
-  <!-- Kernel -->
-  <project name="FraEgg/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="11.0-luis-cr" />
+    <!-- Kernel -->
+    <project name="FraEgg/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="11.0-luis-cr" />
 
-  <!-- Vendor -->
-  <project name="FraEgg/proprietary_vendor_xiaomi_santoni_ra" path="vendor/xiaomi" remote="github" revision="11.0-luis-cr" />
+    <!-- Vendor -->
+    <project name="FraEgg/proprietary_vendor_xiaomi_santoni_ra" path="vendor/xiaomi" remote="github" revision="11.0-luis-cr" />
 
-  <!-- Temp fixes -->
+    <!-- Temp fixes -->
 
-  <!-- Additional -->
-  <remove-project name="crdroidandroid/android_hardware_qcom_display" />
-  <project path="hardware/qcom-caf/msm8996/display" name="Jabiyeff/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="caf-msm8996-r" />
+    <!-- Additional -->
+    <!--
+    <remove-project name="crdroidandroid/android_hardware_qcom_display" />
+    <project path="hardware/qcom-caf/msm8996/display" name="Jabiyeff/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="caf-msm8996-r" />
+    -->
+    <remove-project name="crdroidandroid/android_hardware_qcom_audio" />
+    <project path="hardware/qcom-caf/msm8996/audio" name="FraEgg/android_hardware_qcom_audio_santoni" groups="pdk-qcom,qcom,qcom_audio" remote="github" revision="caf-msm8996-r" />
+    <!--
+    <remove-project name="crdroidandroid/android_hardware_qcom_media" />
+    <project path="hardware/qcom-caf/msm8996/media" name="Jabiyeff/android_hardware_qcom_media" groups="pdk-qcom,qcom,qcom_media" remote="github" revision="caf-msm8996-r" />
+    -->
+    <!--
+    <remove-project name="crdroidandroid/android_packages_apps_Bluetooth" />
+    <project path="packages/apps/Bluetooth" name="Jabiyeff/android_packages_apps_Bluetooth" remote="github" revision="lineage-18.1" />
 
-  <remove-project name="crdroidandroid/android_hardware_qcom_audio" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="Jabiyeff/android_hardware_qcom_audio" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="caf-msm8996-r" />
+    <remove-project name="LineageOS/android_device_qcom_sepolicy" />
+    <project path="device/qcom/sepolicy-legacy-um" name="Jabiyeff/android_device_qcom_sepolicy-legacy-um" remote="github" revision="11.0" />
+    -->
 
-  <remove-project name="crdroidandroid/android_hardware_qcom_media" />
-  <project path="hardware/qcom-caf/msm8996/media" name="Jabiyeff/android_hardware_qcom_media" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="caf-msm8996-r" />
-  
-  <project name="SpiceOS/android_prebuilts_clang_host_linux-x86_clang-7284624" path="prebuilts/clang/host/linux-x86/clang-7284624" remote="github" revision="11" />
+    <project name="SpiceOS/android_prebuilts_clang_host_linux-x86_clang-7284624" path="prebuilts/clang/host/linux-x86/clang-7284624" remote="github" revision="11" />
   
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
