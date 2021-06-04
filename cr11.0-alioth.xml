@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device tree -->
+    <project name="FraEgg/device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="11.0-luis-cr-ad" />
+    <project name="FraEgg/device_xiaomi_sm8250" path="device/xiaomi/sm8250" remote="github" revision="11.0-luis-cr-ad" />
+    <project name="FraEgg/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="github" revision="11.0-luis-cr-ad" />
+    <project name="FraEgg/vendor_xiaomi_sm8250" path="vendor/xiaomi/sm8250" remote="github" revision="11.0-luis-cr-ad" />
+
+    <!-- Kernel -->
+    <project name="FraEgg/kernel_xiaomi_alioth" path="kernel/xiaomi/alioth" remote="github" revision="11.0-luis-cr-ad" />
+
+    <!-- Temp fixes -->
+
+    <!-- Additional -->
+    <remove-project name="LineageOS/android_hardware_qcom_display" />
+    <project path="hardware/qcom-caf/sm8250/display" name="FraEgg/LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="11.0-luis-cr-ad" />
+  
+  <!-- Luis ROM Changes -->
+  <remove-project name="crdroidandroid/android_frameworks_base" />
+  <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="11.0-luis-cr" />
+
+  <remove-project name="crdroidandroid/android_vendor_crdroid" />
+  <project path="vendor/lineage" name="FraEgg/android_vendor_crdroid" remote="github" revision="11.0-luis-cr" />
+
+  <remove-project name="crdroidandroid/android_vendor_addons" />
+  <project path="vendor/addons" name="FraEgg/android_vendor_addons_cr" remote="github" revision="11.0-luis-cr" />
+
+  <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
+  <project path="packages/apps/crDroidSettings" name="FraEgg/android_packages_apps_crDroidSettings" revision="11.0-luis-cr" />
+
+  <remove-project name="crdroidandroid/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater_cr" revision="11.0-luis-cr" />
+
+  <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
+  <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="11.0-luis-cr" />
+
+
+</manifest>
