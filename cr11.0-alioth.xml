@@ -3,9 +3,9 @@
 
     <!-- Device tree -->
     <project name="FraEgg/device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="11.0-luis-cr-ad" />
-    <project name="FraEgg/device_xiaomi_sm8250" path="device/xiaomi/sm8250" remote="github" revision="11.0-luis-cr-ad" />
+    <project name="FraEgg/device_xiaomi_sm8250" path="device/xiaomi/sm8250-common" remote="github" revision="11.0-luis-cr-ad" />
     <project name="FraEgg/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="github" revision="11.0-luis-cr-ad" />
-    <project name="FraEgg/vendor_xiaomi_sm8250" path="vendor/xiaomi/sm8250" remote="github" revision="11.0-luis-cr-ad" />
+    <project name="FraEgg/vendor_xiaomi_sm8250" path="vendor/xiaomi/sm8250-common" remote="github" revision="11.0-luis-cr-ad" />
 
     <!-- Kernel -->
     <project name="FraEgg/kernel_xiaomi_alioth" path="kernel/xiaomi/alioth" remote="github" revision="11.0-luis-cr-ad" />
