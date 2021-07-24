@@ -9,6 +9,7 @@
     <project name="FraEgg/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
     <!-- <project name="the-muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi/sm8250-common" remote="gitlab" revision="lineage-18.1" /> -->
 	<project name="xiaomi_alioth_kitchen/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="gitlab" revision="los-18.1" />
+	<project name="xiaomi_alioth_kitchen/vendor_xiaomi_sm8250" path="vendor/xiaomi/sm8250-common" remote="gitlab" revision="los-18.1" />
 
     <!-- Kernel -->
     <project name="FraEgg/android_kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="github" revision="lineage-18.1" />
