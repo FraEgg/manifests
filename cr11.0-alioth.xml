@@ -16,9 +16,11 @@
     <!-- Temp fixes -->
 
     <!-- Additional -->
+	<!--
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <project path="hardware/qcom-caf/sm8250/display" name="FraEgg/hardware_qcom-caf_sm8250_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="11.0-luis-cr-ad" />
-  
+    -->
+	
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <project path="frameworks/base" name="FraEgg/android_frameworks_base_cr" remote="github" revision="11.0-luis-cr" />
