@@ -6,7 +6,7 @@
     <!-- Device tree -->
     <project name="FraEgg/android_device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="lineage-18.1" />
     <project name="FraEgg/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="lineage-18.1" />
-    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
+    <project name="FraEgg/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
     <!-- <project name="the-muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi/sm8250-common" remote="gitlab" revision="lineage-18.1" /> -->
 	<project name="xiaomi_alioth_kitchen/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="gitlab" revision="los-18.1" />
 
