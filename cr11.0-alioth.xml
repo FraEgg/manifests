@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+	<remote name="gitlab" fetch="https://gitlab.com" />
 
     <!-- Device tree -->
-    <project name="FraEgg/device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="11.0-luis-cr-ad" />
-    <project name="FraEgg/device_xiaomi_sm8250" path="device/xiaomi/sm8250-common" remote="github" revision="11.0-luis-cr-ad" />
-    <project name="FraEgg/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="github" revision="11.0-luis-cr-ad" />
-    <project name="FraEgg/vendor_xiaomi_sm8250" path="vendor/xiaomi/sm8250-common" remote="github" revision="11.0-luis-cr-ad" />
+    <project name="FraEgg/android_device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="lineage-18.1" />
+    <project name="FraEgg/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="lineage-18.1" />
+    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
+    <!-- <project name="the-muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi/sm8250-common" remote="gitlab" revision="lineage-18.1" /> -->
+	<project name="xiaomi_alioth_kitchen/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="gitlab" revision="los-18.1" />
 
     <!-- Kernel -->
-    <project name="FraEgg/kernel_xiaomi_alioth" path="kernel/xiaomi/alioth" remote="github" revision="11.0-luis-cr-ad" />
+    <project name="FraEgg/android_kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="github" revision="lineage-18.1" />
 
     <!-- Temp fixes -->
 
