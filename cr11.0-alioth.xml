@@ -2,23 +2,20 @@
 <manifest>
 	
     <remote name="gitlab" fetch="https://gitlab.com" />
-
     <!-- Device tree -->
     <project name="FraEgg/android_device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="lineage-18.1" />
     <project name="FraEgg/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="lineage-18.1" />
     <project name="FraEgg/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
-    <!-- Vendor -->
-	<project name="the-muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab" revision="lineage-18.1" />
+    <project name="vendorosass/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="gitlab" revision="los-18.1" />
+    <project name="FraEgg/android_vendor_xiaomi_sm8250" path="vendor/xiaomi/sm8250-common" remote="github" revision="lineage-18.1" />
     <!-- Kernel -->
-    <project name="FraEgg/android_kernel_xiaomi_sm8250-1" path="kernel/xiaomi/sm8250" remote="github" revision="11.0-luis-oa" />
-
+    <project name="FraEgg/android_kernel_xiaomi_sm8250-1" path="kernel/xiaomi/alioth" remote="github" revision="11.0-luis-oa" />
+	
     <!-- Temp fixes -->
 
     <!-- Additional -->
-	<!--
     <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <project path="hardware/qcom-caf/sm8250/display" name="FraEgg/hardware_qcom-caf_sm8250_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="11.0-luis-cr-ad" />
-    -->
+    <project name="FraEgg/android_hardware_qcom-caf_sm8250_display" path="hardware/qcom-caf/sm8250/display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-18.1" />
 	
   <!-- Luis ROM Changes -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
