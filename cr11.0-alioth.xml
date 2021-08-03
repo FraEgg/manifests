@@ -6,7 +6,7 @@
     <project name="FraEgg/android_device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="lineage-18.1" />
     <project name="FraEgg/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="lineage-18.1" />
     <project name="FraEgg/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1" />
-    <project name="vendorosass/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="gitlab" revision="los-18.1" />
+    <project name="vendorosass/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="gitlab" revision="eleven" />
     <project name="FraEgg/android_vendor_xiaomi_sm8250" path="vendor/xiaomi/sm8250-common" remote="github" revision="lineage-18.1" />
     <!-- Kernel -->
     <project name="FraEgg/android_kernel_xiaomi_sm8250-1" path="kernel/xiaomi/alioth" remote="github" revision="11.0-luis-oa" />
