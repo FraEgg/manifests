@@ -23,7 +23,7 @@
     <project name="FraEgg/android_vendor_samsung_klimtlte" path="vendor/samsung/klimtlte" remote="github" revision="lineage-17.1" />
     <project name="FraEgg/android_vendor_samsung_klimtwifi" path="vendor/samsung/klimtwifi" remote="github" revision="lineage-17.1" />
     <project name="FraEgg/android_vendor_samsung_klimt-common" path="vendor/samsung/klimt-common" remote="github" revision="lineage-17.1" />
-    <project name="FraEgg/android_vendor_samsung_n1a-common" path="vendor/samsung/n1a-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_n1a-common" path="vendor/samsung/n1a-common" remote="github" revision="lineage-17.1" />
     <project name="FraEgg/android_vendor_samsung_n1awifi" path="vendor/samsung/n1awifi" remote="github" revision="lineage-17.1" />
     <project name="FraEgg/android_vendor_samsung_universal5420-common" path="vendor/samsung/universal5420-common" remote="github" revision="lineage-17.1" />
 
