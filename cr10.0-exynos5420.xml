@@ -2,37 +2,52 @@
 <manifest>
 
     <!-- DEVICES -->
-    <project name="FraEgg/android_device_samsung_chagallwifi" path="device/samsung/chagallwifi" revision="lineage-17.1" remote="github" />
-    <project name="FraEgg/android_device_samsung_chagalllte" path="device/samsung/chagalllte" revision="lineage-17.1" remote="github" />
-    <project name="FraEgg/android_device_samsung_chagall-common" path="device/samsung/chagall-common" remote="github" revision="lineage-17.1" />
-    <project name="FraEgg/android_device_samsung_klimtlte" path="device/samsung/klimtlte" revision="lineage-17.1" remote="github" />
-    <project name="FraEgg/android_device_samsung_klimtwifi" path="device/samsung/klimtwifi" revision="lineage-17.1" remote="github" />
-    <project name="FraEgg/android_device_samsung_klimt-common" path="device/samsung/klimt-common" remote="github" revision="lineage-17.1" />
-    <project name="FraEgg/android_device_samsung_n1a-common" path="device/samsung/n1a-common" remote="github" revision="lineage-17.1" />
-    <project name="FraEgg/android_device_samsung_n1awifi" path="device/samsung/n1awifi" remote="github" revision="lineage-17.1" />
-    <project name="FraEgg/android_device_samsung_universal5420-common" path="device/samsung/universal5420-common" revision="lineage-17.1" remote="github" />
-    <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
+    <project name="exynos5420/android_device_samsung_chagallwifi" path="device/samsung/chagallwifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_chagalllte" path="device/samsung/chagalllte" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_chagall-common" path="device/samsung/chagall-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_klimtlte" path="device/samsung/klimtlte" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_klimtltecan" path="device/samsung/klimtltecan" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_klimtwifi" path="device/samsung/klimtwifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_klimt-common" path="device/samsung/klimt-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_n1a-common" path="device/samsung/n1a-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_n1awifi" path="device/samsung/n1awifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_n2a-common" path="device/samsung/n2a-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_n2awifi" path="device/samsung/n2awifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_v1a-common" path="device/samsung/v1a-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_v1awifi" path="device/samsung/v1awifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_v2a-common" path="device/samsung/v2a-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_v2awifi" path="device/samsung/v2awifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_device_samsung_universal5420-common" path="device/samsung/universal5420-common" remote="github" revision="lineage-17.1" />
+    <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-17.1" />
 
     <!-- KERNEL -->
+    <!-- <project name="exynos5420/android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="github" /> -->
     <project name="FraEgg/android_kernel_samsung_exynos5420" path="kernel/samsung/exynos5420" remote="github" revision="lineage-17.1-sp" />
 
     <!-- VENDOR -->
-    <project name="FraEgg/android_vendor_samsung_chagallwifi" path="vendor/samsung/chagallwifi" revision="lineage-17.1" remote="github" />
-    <project name="FraEgg/android_vendor_samsung_chagalllte" path="vendor/samsung/chagalllte" revision="lineage-17.1" remote="github" />
-    <project name="FraEgg/android_vendor_samsung_chagall-common" path="vendor/samsung/chagall-common" revision="lineage-17.1" remote="github" />
-    <project name="FraEgg/android_vendor_samsung_klimtlte" path="vendor/samsung/klimtlte" remote="github" revision="lineage-17.1" />
-    <project name="FraEgg/android_vendor_samsung_klimtwifi" path="vendor/samsung/klimtwifi" remote="github" revision="lineage-17.1" />
-    <project name="FraEgg/android_vendor_samsung_klimt-common" path="vendor/samsung/klimt-common" remote="github" revision="lineage-17.1" />
-    <project name="FraEgg/android_vendor_samsung_n1a-common" path="vendor/samsung/n1a-common" remote="github" revision="lineage-17.1" />
-    <project name="FraEgg/android_vendor_samsung_n1awifi" path="vendor/samsung/n1awifi" remote="github" revision="lineage-17.1" />
-    <project name="FraEgg/android_vendor_samsung_universal5420-common" path="vendor/samsung/universal5420-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_chagallwifi" path="vendor/samsung/chagallwifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_chagalllte" path="vendor/samsung/chagalllte" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_chagall-common" path="vendor/samsung/chagall-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_klimtlte" path="vendor/samsung/klimtlte" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_klimtltecan" path="vendor/samsung/klimtltecan" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_klimtwifi" path="vendor/samsung/klimtwifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_klimt-common" path="vendor/samsung/klimt-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_n1a-common" path="vendor/samsung/n1a-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_n1awifi" path="vendor/samsung/n1awifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_n2a-common" path="vendor/samsung/n2a-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_n2awifi" path="vendor/samsung/n2awifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_v1a-common" path="vendor/samsung/v1a-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_v1awifi" path="vendor/samsung/v1awifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_v2a-common" path="vendor/samsung/v2a-common" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_v2awifi" path="vendor/samsung/v2awifi" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_vendor_samsung_universal5420-common" path="vendor/samsung/universal5420-common" remote="github" revision="lineage-17.1" />
 
     <!-- HARDWARE -->
-    <project name="lineageos/android_hardware_samsung" path="hardware/samsung" remote="github" />
-    <project name="lineageos/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" />
-    <project name="lineageos/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" />
-    <project name="lineageos/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="github" />
-    <project name="FraEgg/android_hardware_samsung_slsi_exynos5420" path="hardware/samsung_slsi/exynos5420" remote="github" revision="lineage-17.1" />
+    <project name="lineageos/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
+    <project name="lineageos/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-17.1" />
+    <project name="lineageos/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="lineage-17.1" />
+    <project name="lineageos/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="github" revision="lineage-17.1" />
+    <project name="exynos5420/android_hardware_samsung_slsi_exynos5420" path="hardware/samsung_slsi/exynos5420" remote="github" revision="lineage-17.1" />
   
   <!-- Temp fixes -->
   
