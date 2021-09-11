@@ -12,6 +12,7 @@
 	<project path="vendor/samsung/dream2lte" name="exynos8895/android_vendor_samsung_dream2lte" remote="github" revision="lineage-17.1"/>
 	<project path="vendor/samsung/greatlte" name="exynos8895/android_vendor_samsung_greatlte" remote="github" revision="lineage-17.1"/>
 	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1"/>
+	<project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-17.1" />
 	<project path="patches" name="diepquynh/build_patches" remote="github" revision="lineage-17.1"/>
 	
   <!-- Temp fixes -->
