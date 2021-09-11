@@ -4,12 +4,12 @@
     <!-- DEVICES -->
 	<project path="device/samsung/universal8895-common" name="FraEgg/android_device_samsung_universal8895-common" remote="github" revision="lineage-17.1"/>
 	<project path="device/samsung/dreamlte" name="FraEgg/android_device_samsung_dreamlte" remote="github" revision="lineage-17.1"/>
-	<project path="device/samsung/dream2lte" name="FraEgg/android_device_samsung_dream2lte" remote="github" revision="lineage-17.1"/>
+	<!-- <project path="device/samsung/dream2lte" name="FraEgg/android_device_samsung_dream2lte" remote="github" revision="lineage-17.1"/> -->
 	<!-- <project path="device/samsung/greatlte" name="exynos8895/android_device_samsung_greatlte" remote="github" revision="lineage-17.1"/> -->
 	<project path="kernel/samsung/universal8895" name="FraEgg/android_kernel_samsung_universal8895" remote="github" revision="lineage-17.1"/>
 	<project path="vendor/samsung/universal8895-common" name="FraEgg/android_vendor_samsung_universal8895-common" remote="github" revision="lineage-17.1"/>
 	<project path="vendor/samsung/dreamlte" name="FraEgg/android_vendor_samsung_dreamlte" remote="github" revision="lineage-17.1"/>
-	<project path="vendor/samsung/dream2lte" name="FraEgg/android_vendor_samsung_dream2lte" remote="github" revision="lineage-17.1"/>
+	<!-- <project path="vendor/samsung/dream2lte" name="FraEgg/android_vendor_samsung_dream2lte" remote="github" revision="lineage-17.1"/> -->
 	<!-- <project path="vendor/samsung/greatlte" name="exynos8895/android_vendor_samsung_greatlte" remote="github" revision="lineage-17.1"/> -->
 	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1"/>
 	<project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-17.1" />
