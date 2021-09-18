@@ -12,6 +12,7 @@
     <project name="FraEgg/android_kernel_xiaomi_sm8250-1" path="kernel/xiaomi/alioth" remote="github" revision="11.0-luis-ar" />
 	
     <!-- Temp fixes -->
+	<project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r428724" path="prebuilts/clang/host/linux-x86/clang-r428724" remote="crdroid-gitlab" />
 
     <!-- Additional -->
     <remove-project name="LineageOS/android_hardware_qcom_display" />
