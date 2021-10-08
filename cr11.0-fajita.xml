@@ -18,9 +18,11 @@
     <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="lineage-18.1" />
     <project name="crdroidandroid/proprietary_vendor_oneplus" path="vendor/oneplus" remote="crdroid-gitlab" revision="11.0-sdm845-common" />
     <!-- <project name="Terminator-J/crdroid_packages_apps_DeviceExtras" path="packages/apps/DeviceExtras" remote="github" revision="11.0-test" /> -->
-    <project name="Terminator-J/crdroid_packages_apps_googlecamera" path="packages/apps/GoogleCamera" remote="crdroid-gitlab" revision="DMGC45" />
+    <!--
+	<project name="Terminator-J/crdroid_packages_apps_googlecamera" path="packages/apps/GoogleCamera" remote="crdroid-gitlab" revision="DMGC45" />
     <project name="Terminator-J/crdroid_packages_apps_onepluscamera" path="packages/apps/OnePlusCamera" remote="crdroid-gitlab" revision="OOSCam3" />
-
+    -->
+		
     <!-- Temp fixes -->
     <project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r428724" path="prebuilts/clang/host/linux-x86/clang-r428724" remote="crdroid-gitlab" />
 	  
