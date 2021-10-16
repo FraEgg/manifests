@@ -7,8 +7,7 @@
   <project name="FraEgg/android_kernel_oneplus_sm8250" path="kernel/oneplus/sm8250" remote="github" revision="11.0-luis-cr" />
   <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="11.0-op8p" />
   <project name="crdroidandroid/proprietary_vendor_oneplus_sm8250-common" path="vendor/oneplus/sm8250-common" remote="github" revision="11.0" />
-  
-  <!-- <project name="FraEgg/proprietary_vendor_oneplus_instantnoodlep" path="vendor/oneplus/instantnoodlep" remote="github" revision="11.0" /> -->
+  <project name="FraEgg/proprietary_vendor_oneplus_instantnoodlep" path="vendor/oneplus/instantnoodlep" remote="github" revision="11.0" />
   <!-- <project name="8224freak/android_vendor_google_gms" path="vendor/google/gms" remote="crdroid-gitlab" revision="11.0-luis-fb" /> -->
   <!-- <project name="8224freak/packages_apps_googlecamera" path="packages/apps/GoogleCamera" remote="crdroid-gitlab" revision="11.0-luis-fb" /> -->
 	  
