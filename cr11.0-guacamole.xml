@@ -4,7 +4,7 @@
   <project name="FraEgg/android_device_oneplus_guacamole" path="device/oneplus/guacamole" remote="github" revision="11.0-luis-cr" />
   <project name="FraEgg/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="github" revision="11.0-luis-cr" />
   <project name="FraEgg/android_device_oneplus_common" path="device/oneplus/common" remote="github" revision="11.0-luis-cr" />
-  <project name="FraEgg/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="11.0-luis-cr-xr" />
+  <project name="FraEgg/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="11.0-luis-cr" />
   <project name="FraEgg/proprietary_vendor_oneplus_cr" path="vendor/oneplus" remote="github" revision="11.0" />
 
   <!-- Temp fixes -->
