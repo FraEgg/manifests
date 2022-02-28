@@ -26,15 +26,13 @@
   <remove-project name="crdroidandroid/android_vendor_addons" />
   <project path="vendor/addons" name="FraEgg/android_vendor_addons_cr" remote="github" revision="12.0-luis-cr" />
 
-<!--
   <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
-  <project path="packages/apps/crDroidSettings" name="FraEgg/android_packages_apps_crDroidSettings" revision="11.0-luis-cr" />
--->
+  <project path="packages/apps/crDroidSettings" name="FraEgg/android_packages_apps_crDroidSettings" revision="12.0-luis-cr" />
+
   <remove-project name="crdroidandroid/android_packages_apps_Updater" />
   <project path="packages/apps/Updater" name="FraEgg/android_packages_apps_Updater_cr" revision="12.0-luis-cr" />
 
-<!--
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
-  <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="11.0-luis-cr" />
--->
+  <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="12.0-luis-cr" />
+
 </manifest>
