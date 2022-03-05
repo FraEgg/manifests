@@ -2,15 +2,15 @@
 <manifest>
 
   <!-- Samsung Galaxy Tab 5e (gts4lvwifi/snapdragon) -->
-  <project name="FraEgg/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" remote="github" revision="12.0-luis-los" />
-  <project name="FraEgg/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" remote="github" revision="12.0-luis-los" />
-  <project name="FraEgg/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" remote="github" revision="11.0-luis-los" />
+  <project name="FraEgg/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" remote="github" revision="12.0-luis-cr" />
+  <project name="FraEgg/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" remote="github" revision="12.0-luis-cr" />
+  <project name="FraEgg/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" remote="github" revision="12.0-luis-cr" />
 
   <!-- General -->
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-19.0" />
 
   <!-- QCOM -->
-  <project name="FraEgg/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="12.0-luis-los" />
+  <project name="FraEgg/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="12.0-luis-cr" />
   
   <!-- Vendor -->
   <project name="FraEgg/proprietary_vendor_samsung_tm" path="vendor/samsung" remote="github" revision="lineage-19.0" />
