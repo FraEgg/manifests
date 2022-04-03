@@ -50,4 +50,4 @@
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
   <project path="vendor/crDroidOTA" name="FraEgg/android_vendor_crDroidOTA" revision="12.1-luis-cr" />
 
-<manifest/>
+</manifest>
