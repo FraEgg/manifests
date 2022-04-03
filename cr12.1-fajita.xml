@@ -10,7 +10,7 @@
     <project name="FraEgg/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="12.1-luis-los" />
 
     <!-- Vendor -->
-    <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="lineage-19.1" />
+    <project name="crdroidandroid/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="12.1" />
     <project name="FraEgg/proprietary_vendor_oneplus_tm" path="vendor/oneplus" remote="github" revision="lineage-19.1" />
 
     <!-- 
