@@ -17,7 +17,7 @@
     <!-- <project name="crdroidandroid/proprietary_vendor_oneplus" path="vendor/oneplus" remote="crdroid-gitlab" revision="11.0-sdm845-common" /> -->
 
     <!-- <project name="Terminator-J/crdroid_packages_apps_googlecamera" path="packages/apps/GoogleCamera" remote="crdroid-gitlab" revision="DMGC45" /> -->
-    <project name="Terminator-J/crdroid_packages_apps_onepluscamera" path="packages/apps/OnePlusCamera" remote="crdroid-gitlab" revision="OOSCam2" />
+    <!-- <project name="Terminator-J/crdroid_packages_apps_onepluscamera" path="packages/apps/OnePlusCamera" remote="crdroid-gitlab" revision="OOSCam2" /> -->
 
     <!-- Temp fixes -->
     <project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r416183d" path="prebuilts/clang/host/linux-x86/clang-r416183d" remote="crdroid" revision="11.0" />
