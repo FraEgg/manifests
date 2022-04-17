@@ -6,7 +6,7 @@
   <project name="FraEgg/android_device_oneplus_dumpling" path="device/oneplus/dumpling" revision="12.1-luis-los" />
   <project name="FraEgg/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" revision="12.1-luis-los" />
   <project name="8224freak/proprietary_vendor_oneplus_luis" path="vendor/oneplus" remote="crdroid-gitlab" revision="lineage-19.1" />
-  <project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="lineage-19.1" />
+  <project name="crdroidandroid/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="12.1" />
 
   <!-- Temp fixes -->
   <!--
