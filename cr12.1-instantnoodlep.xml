@@ -5,7 +5,7 @@
   <project name="FraEgg/android_kernel_oneplus_sm8250" path="kernel/oneplus/sm8250" remote="github" revision="12.1-luis-cr" />
   <project name="FraEgg/proprietary_vendor_oneplus_sm8250-common" path="vendor/oneplus/sm8250-common" remote="github" revision="12.1" />
   <project name="FraEgg/proprietary_vendor_oneplus_instantnoodlep" path="vendor/oneplus/instantnoodlep" remote="github" revision="12.1" />
-	<project name="crdroidandroid/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="12.1" />
+	<project name="FraEgg/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="12.1" />
   
   <!-- Temp fixes -->
   <!-- <project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r428724" path="prebuilts/clang/host/linux-x86/clang-r428724" remote="crdroid-gitlab" /> -->	  

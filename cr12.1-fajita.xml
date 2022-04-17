@@ -8,7 +8,7 @@
     <project name="FraEgg/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="12.1-luis-tj" />
 
     <!-- Vendor -->
-    <project name="crdroidandroid/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="12.1" />
+    <project name="FraEgg/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="12.1" />
     <!-- <project name="Terminator-J/crdroid_vendor_oneplus" path="vendor/oneplus" remote="crdroid-gitlab" revision="12.1-test" /> -->
     <project name="8224freak/proprietary_vendor_oneplus_luis" path="vendor/oneplus" remote="crdroid-gitlab" revision="op6t-12.1-test" />
 
