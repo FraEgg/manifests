@@ -2,8 +2,8 @@
 <manifest>
 
   <!-- Samsung Galaxy Tab 5e (gts4lvwifi/snapdragon) -->
-  <project name="FraEgg/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" remote="github" revision="13.0-luis-los" />
-  <project name="FraEgg/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" remote="github" revision="13.0-luis-los" />
+  <project name="FraEgg/android_device_samsung_gts4lvwifi" path="device/samsung/gts4lvwifi" remote="github" revision="13.0-luis-cr" />
+  <project name="FraEgg/android_device_samsung_gts4lv-common" path="device/samsung/gts4lv-common" remote="github" revision="13.0-luis-cr" />
   <project name="FraEgg/android_kernel_samsung_sdm670" path="kernel/samsung/sdm670" remote="github" revision="13.0-luis-cr" />
 
   <!-- General -->
